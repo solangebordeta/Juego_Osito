@@ -11,7 +11,7 @@ namespace MyGame
     {
                     
         static IntPtr image = Engine.LoadImage("assets/fondo.png");
-        static public List<Enemy> EnemyList = new List<Enemy>();
+        static public List<Obstacle> ObstacleList = new List<Obstacle>();
         static public List<Bullet> BulletList = new List<Bullet>();
         private static Time _time;
 
@@ -46,9 +46,9 @@ namespace MyGame
                 BulletList[i].Render();
             }
             
-            for (int i = 0; i < EnemyList.Count; i++)
+            for (int i = 0; i < ObstacleList.Count; i++)
             {
-                EnemyList[i].Render();
+                ObstacleList[i].Render();
             }
 
             Engine.Show();
@@ -63,9 +63,9 @@ namespace MyGame
                 BulletList[i].Update();
             }
 
-            for (int i = 0; i < EnemyList.Count; i++)
+            for (int i = 0; i < ObstacleList.Count; i++)
             {
-                EnemyList[i].Update();
+                ObstacleList[i].Update();
             }
 
             _time.Update();
@@ -73,16 +73,16 @@ namespace MyGame
 
         private static void CreateEnemies()
         {
-            EnemyList.Add(new Enemy(new Vector2(0, 0)));
-            EnemyList.Add(new Enemy(new Vector2(200, 0)));
-            EnemyList.Add(new Enemy(new Vector2(400, 0)));
-            EnemyList.Add(new Enemy(new Vector2(600, 0)));
-            EnemyList.Add(new Enemy(new Vector2(800, 0)));
-            EnemyList.Add(new Enemy(new Vector2(0, 200)));
-            EnemyList.Add(new Enemy(new Vector2(200, 200)));
-            EnemyList.Add(new Enemy(new Vector2(400, 200)));
-            EnemyList.Add(new Enemy(new Vector2(600, 200)));
-            EnemyList.Add(new Enemy(new Vector2(800, 200)));
+            ObstacleList.Add(new Obstacle(new Vector2(0, 0)));
+            ObstacleList.Add(new Obstacle(new Vector2(200, 0)));
+            ObstacleList.Add(new Obstacle(new Vector2(400, 0)));
+            ObstacleList.Add(new Obstacle(new Vector2(600, 0)));
+            ObstacleList.Add(new Obstacle(new Vector2(800, 0)));
+            ObstacleList.Add(new Obstacle(new Vector2(0, 200)));
+            ObstacleList.Add(new Obstacle(new Vector2(200, 200)));
+            ObstacleList.Add(new Obstacle(new Vector2(400, 200)));
+            ObstacleList.Add(new Obstacle(new Vector2(600, 200)));
+            ObstacleList.Add(new Obstacle(new Vector2(800, 200)));
         }
 
 

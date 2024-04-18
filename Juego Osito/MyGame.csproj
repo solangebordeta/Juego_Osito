@@ -51,8 +51,8 @@
     <Compile Include="Bullet.cs" />
     <Compile Include="Character.cs" />
     <Compile Include="CharacterController.cs" />
-    <Compile Include="Enemy.cs" />
-    <Compile Include="EnemyMovement.cs" />
+    <Compile Include="Obstacle.cs" />
+    <Compile Include="ObstacleMovement.cs" />
     <Compile Include="Font.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Program.cs" />
@@ -82,28 +82,28 @@
     <Content Include="assets\Bullet\Idle\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\enemy.png">
+    <Content Include="assets\obstacle.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\Enemy\Damage\0.png" />
-    <Content Include="assets\Enemy\Explosion\0.png" />
-    <Content Include="assets\Enemy\Explosion\1.png" />
-    <Content Include="assets\Enemy\Explosion\2.png" />
-    <Content Include="assets\Enemy\Explosion\3.png" />
-    <Content Include="assets\Enemy\Explosion\4.png" />
-    <Content Include="assets\Enemy\Explosion\5.png" />
-    <Content Include="assets\Enemy\Explosion\6.png" />
-    <Content Include="assets\Enemy\Explosion\7.png" />
-    <Content Include="assets\Enemy\Idle\0.png">
+    <Content Include="assets\Obstacle\Damage\0.png" />
+    <Content Include="assets\Obstacle\Explosion\0.png" />
+    <Content Include="assets\Obstacle\Explosion\1.png" />
+    <Content Include="assets\Obstacle\Explosion\2.png" />
+    <Content Include="assets\Obstacle\Explosion\3.png" />
+    <Content Include="assets\Obstacle\Explosion\4.png" />
+    <Content Include="assets\Obstacle\Explosion\5.png" />
+    <Content Include="assets\Obstacle\Explosion\6.png" />
+    <Content Include="assets\Obstacle\Explosion\7.png" />
+    <Content Include="assets\Obstacle\Idle\0.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\Enemy\Idle\1.png">
+    <Content Include="assets\Obstacle\Idle\1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\Enemy\Idle\2.png">
+    <Content Include="assets\Obstacle\Idle\2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\Enemy\Idle\3.png">
+    <Content Include="assets\Obstacle\Idle\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="assets\player.png">

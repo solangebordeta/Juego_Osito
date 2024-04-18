@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    internal class EnemyMovement
+    internal class ObstacleMovement
     {
         private Transform transform;
         private int speed = 4;
         private Vector2 direccion = new Vector2(1, 0);
-        public EnemyMovement (Transform transform)
+        public ObstacleMovement (Transform transform)
         {
             this.transform = transform;
         }
 
-        public void MoveEnemy()
+        public void MoveObstacle()
         {
             if (transform.Position.x > 1000 || transform.Position.x < 0)
             {

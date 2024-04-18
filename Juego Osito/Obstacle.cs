@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class Enemy
+    public class Obstacle
     {
         private Transform transform;
         private Animation idleAnimation;
         private Animation currentAnimation;
         public Transform Transform => transform;
-        private EnemyMovement enemyMovement;
+        private ObstacleMovement ObstacleMovement;
 
-        IntPtr image = Engine.LoadImage("assets/enemy.png");
+        IntPtr image = Engine.LoadImage("assets/obstacle.png");
 
-        public Enemy(Vector2 pos)
+        public Obstacle(Vector2 pos)
         {
             transform = new Transform(pos,new Vector2(100, 100));
-            enemyMovement = new EnemyMovement(transform);
+            ObstacleMovement = new ObstacleMovement(transform);
             CreateAnimations();
         }
 
@@ -28,7 +28,7 @@ namespace MyGame
             List<IntPtr> idleTextures = new List<IntPtr>();
             for (int i = 0; i < 4; i++)
             {
-                IntPtr frame = Engine.LoadImage($"assets/Enemy/Idle/{i}.png");
+                IntPtr frame = Engine.LoadImage($"assets/obstacle/Idle/{i}.png");
                 idleTextures.Add(frame);
             }
             idleAnimation = new Animation("Idle", idleTextures, 0.1f, true);
@@ -43,7 +43,7 @@ namespace MyGame
         public void Update()
         {
             currentAnimation.Update();
-            enemyMovement.MoveEnemy();
+            ObstacleMovement.MoveObstacle();
         }
     }
 }

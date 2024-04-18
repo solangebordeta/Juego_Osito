@@ -33,19 +33,19 @@ namespace MyGame
         private void CheckCollisions()
         {
 
-            for (int i = 0; i < Program.EnemyList.Count; i++)
+            for (int i = 0; i < Program.ObstacleList.Count; i++)
             {
-                Enemy enemy = Program.EnemyList[i];
-                float distanceX = Math.Abs((enemy.Transform.Position.x + (enemy.Transform.Scale.x / 2)) - (transform.Position.x + (transform.Scale.x / 2)));
-                float distanceY = Math.Abs((enemy.Transform.Position.y + (enemy.Transform.Scale.y / 2)) - (transform.Position.y + (transform.Scale.y / 2)));
+                Obstacle Obstacle = Program.ObstacleList[i];
+                float distanceX = Math.Abs((Obstacle.Transform.Position.x + (Obstacle.Transform.Scale.x / 2)) - (transform.Position.x + (transform.Scale.x / 2)));
+                float distanceY = Math.Abs((Obstacle.Transform.Position.y + (Obstacle.Transform.Scale.y / 2)) - (transform.Position.y + (transform.Scale.y / 2)));
 
-                float sumHalfWidth = enemy.Transform.Scale.x / 2 + transform.Scale.x / 2;
-                float sumHalfH = enemy.Transform.Scale.y / 2 + transform.Scale.y / 2;
+                float sumHalfWidth = Obstacle.Transform.Scale.x / 2 + transform.Scale.x / 2;
+                float sumHalfH = Obstacle.Transform.Scale.y / 2 + transform.Scale.y / 2;
 
                 if (distanceX < sumHalfWidth && distanceY < sumHalfH) // hay colision
                 {
                     Program.BulletList.Remove(this);
-                    Program.EnemyList.Remove(enemy);
+                    Program.ObstacleList.Remove(Obstacle);
                 }
             }
         }
