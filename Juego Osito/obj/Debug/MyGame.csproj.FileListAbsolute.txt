@@ -1,0 +1,193 @@
+C:\Users\Admin\Downloads\06b2-MiniFreddy01b\MiniFreddy\MiniFreddy\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\06b2-MiniFreddy01b\MiniFreddy\MiniFreddy\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Downloads\06b2-MiniFreddy01b\MiniFreddy\MiniFreddy\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\06b2-MiniFreddy01b\MiniFreddy\MiniFreddy\bin\Debug\assets\0.png
+C:\Users\Admin\Downloads\06b2-MiniFreddy01b\MiniFreddy\MiniFreddy\bin\Debug\assets\1.png
+C:\Users\Admin\Downloads\06b2-MiniFreddy01b\MiniFreddy\MiniFreddy\bin\Debug\assets\2.png
+C:\Users\Admin\Downloads\06b2-MiniFreddy01b\MiniFreddy\MiniFreddy\bin\Debug\MyGame.exe.config
+C:\Users\Admin\Downloads\06b2-MiniFreddy01b\MiniFreddy\MiniFreddy\bin\Debug\MyGame.exe
+C:\Users\Admin\Downloads\06b2-MiniFreddy01b\MiniFreddy\MiniFreddy\bin\Debug\MyGame.pdb
+C:\Users\Admin\Downloads\06b2-MiniFreddy01b\MiniFreddy\MiniFreddy\obj\Debug\MyGame.csproj.CopyComplete
+C:\Users\Admin\Downloads\06b2-MiniFreddy01b\MiniFreddy\MiniFreddy\obj\Debug\MyGame.exe
+C:\Users\Admin\Downloads\06b2-MiniFreddy01b\MiniFreddy\MiniFreddy\obj\Debug\MyGame.pdb
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\MyGame.exe.config
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\MyGame.exe
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\MyGame.pdb
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\obj\Debug\MyGame.csproj.CopyComplete
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\obj\Debug\MyGame.exe
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\obj\Debug\MyGame.pdb
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\assets\fondo.png
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\assets\player.png
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\bin\Debug\assets\player.png
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\bin\Debug\assets\fondo.png
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\bin\Debug\MyGame.exe.config
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\bin\Debug\MyGame.exe
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\bin\Debug\MyGame.pdb
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\obj\Debug\MyGame.csproj.CopyComplete
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\obj\Debug\MyGame.exe
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\obj\Debug\MyGame.pdb
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\bin\Debug\assets\Ship\Idle\0.png
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\bin\Debug\assets\Ship\Idle\1.png
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\bin\Debug\assets\Ship\Idle\2.png
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE FINAL\Base\bin\Debug\assets\Ship\Idle\3.png
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\assets\player.png
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\assets\fondo.png
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\assets\Ship\Idle\0.png
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\assets\Ship\Idle\1.png
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\assets\Ship\Idle\2.png
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\assets\Ship\Idle\3.png
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\MyGame.exe.config
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\MyGame.exe
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\MyGame.pdb
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\obj\Debug\MyGame.csproj.CopyComplete
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\obj\Debug\MyGame.exe
+C:\Users\Admin\Dropbox\Facultad\UADE OBJETOS\BASE\Base\obj\Debug\MyGame.pdb
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\assets\Ship\Idle\0.png
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\assets\Ship\Idle\1.png
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\assets\Ship\Idle\2.png
+C:\Users\Consultoria\Dropbox\Facultad\UADE OBJETOS\BASE\Base\bin\Debug\assets\Ship\Idle\3.png
+C:\Users\Admin\Dropbox\Facultad\UADE\PARADIGMAS DE PROGRAMACION\ProyectoBase\Base\bin\Debug\assets\player.png
+C:\Users\Admin\Dropbox\Facultad\UADE\PARADIGMAS DE PROGRAMACION\ProyectoBase\Base\bin\Debug\assets\fondo.png
+C:\Users\Admin\Dropbox\Facultad\UADE\PARADIGMAS DE PROGRAMACION\ProyectoBase\Base\bin\Debug\MyGame.exe.config
+C:\Users\Admin\Dropbox\Facultad\UADE\PARADIGMAS DE PROGRAMACION\ProyectoBase\Base\bin\Debug\MyGame.exe
+C:\Users\Admin\Dropbox\Facultad\UADE\PARADIGMAS DE PROGRAMACION\ProyectoBase\Base\bin\Debug\MyGame.pdb
+C:\Users\Admin\Dropbox\Facultad\UADE\PARADIGMAS DE PROGRAMACION\ProyectoBase\Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Admin\Dropbox\Facultad\UADE\PARADIGMAS DE PROGRAMACION\ProyectoBase\Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Dropbox\Facultad\UADE\PARADIGMAS DE PROGRAMACION\ProyectoBase\Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Dropbox\Facultad\UADE\PARADIGMAS DE PROGRAMACION\ProyectoBase\Base\obj\Debug\MyGame.csproj.CopyComplete
+C:\Users\Admin\Dropbox\Facultad\UADE\PARADIGMAS DE PROGRAMACION\ProyectoBase\Base\obj\Debug\MyGame.exe
+C:\Users\Admin\Dropbox\Facultad\UADE\PARADIGMAS DE PROGRAMACION\ProyectoBase\Base\obj\Debug\MyGame.pdb
+E:\Paradigmas 1C2024\ProyectoBase\Base\bin\Debug\assets\player.png
+E:\Paradigmas 1C2024\ProyectoBase\Base\bin\Debug\assets\fondo.png
+E:\Paradigmas 1C2024\ProyectoBase\Base\bin\Debug\MyGame.exe.config
+E:\Paradigmas 1C2024\ProyectoBase\Base\bin\Debug\MyGame.exe
+E:\Paradigmas 1C2024\ProyectoBase\Base\bin\Debug\MyGame.pdb
+E:\Paradigmas 1C2024\ProyectoBase\Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+E:\Paradigmas 1C2024\ProyectoBase\Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+E:\Paradigmas 1C2024\ProyectoBase\Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+E:\Paradigmas 1C2024\ProyectoBase\Base\obj\Debug\MyGame.csproj.CopyComplete
+E:\Paradigmas 1C2024\ProyectoBase\Base\obj\Debug\MyGame.exe
+E:\Paradigmas 1C2024\ProyectoBase\Base\obj\Debug\MyGame.pdb
+D:\Paradigmas 1C2024\ProyectoBase\Base\bin\Debug\assets\player.png
+D:\Paradigmas 1C2024\ProyectoBase\Base\bin\Debug\assets\fondo.png
+D:\Paradigmas 1C2024\ProyectoBase\Base\bin\Debug\MyGame.exe.config
+D:\Paradigmas 1C2024\ProyectoBase\Base\bin\Debug\MyGame.exe
+D:\Paradigmas 1C2024\ProyectoBase\Base\bin\Debug\MyGame.pdb
+D:\Paradigmas 1C2024\ProyectoBase\Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+D:\Paradigmas 1C2024\ProyectoBase\Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+D:\Paradigmas 1C2024\ProyectoBase\Base\obj\Debug\MyGame.csproj.CopyComplete
+D:\Paradigmas 1C2024\ProyectoBase\Base\obj\Debug\MyGame.exe
+D:\Paradigmas 1C2024\ProyectoBase\Base\obj\Debug\MyGame.pdb
+D:\Paradigmas 1C2024\ProyectoBase\Base\bin\Debug\assets\enemy.png
+C:\Users\p764\Desktop\Clase2\Base\bin\Debug\assets\enemy.png
+C:\Users\p764\Desktop\Clase2\Base\bin\Debug\assets\player.png
+C:\Users\p764\Desktop\Clase2\Base\bin\Debug\assets\fondo.png
+C:\Users\p764\Desktop\Clase2\Base\bin\Debug\MyGame.exe.config
+C:\Users\p764\Desktop\Clase2\Base\bin\Debug\MyGame.exe
+C:\Users\p764\Desktop\Clase2\Base\bin\Debug\MyGame.pdb
+C:\Users\p764\Desktop\Clase2\Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\p764\Desktop\Clase2\Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\p764\Desktop\Clase2\Base\obj\Debug\MyGame.csproj.CopyComplete
+C:\Users\p764\Desktop\Clase2\Base\obj\Debug\MyGame.exe
+C:\Users\p764\Desktop\Clase2\Base\obj\Debug\MyGame.pdb
+C:\Users\p764\Desktop\Clase2\Base\bin\Debug\assets\bullet.png
+C:\Users\p764\Desktop\Clase3\Clase2\Base\bin\Debug\assets\bullet.png
+C:\Users\p764\Desktop\Clase3\Clase2\Base\bin\Debug\assets\enemy.png
+C:\Users\p764\Desktop\Clase3\Clase2\Base\bin\Debug\assets\player.png
+C:\Users\p764\Desktop\Clase3\Clase2\Base\bin\Debug\assets\fondo.png
+C:\Users\p764\Desktop\Clase3\Clase2\Base\bin\Debug\MyGame.exe.config
+C:\Users\p764\Desktop\Clase3\Clase2\Base\bin\Debug\MyGame.exe
+C:\Users\p764\Desktop\Clase3\Clase2\Base\bin\Debug\MyGame.pdb
+C:\Users\p764\Desktop\Clase3\Clase2\Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\p764\Desktop\Clase3\Clase2\Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\p764\Desktop\Clase3\Clase2\Base\obj\Debug\MyGame.csproj.CopyComplete
+C:\Users\p764\Desktop\Clase3\Clase2\Base\obj\Debug\MyGame.exe
+C:\Users\p764\Desktop\Clase3\Clase2\Base\obj\Debug\MyGame.pdb
+E:\Paradigmas 1C2024\ProyectoBase\Clase4\Clase2\Base\bin\Debug\assets\bullet.png
+E:\Paradigmas 1C2024\ProyectoBase\Clase4\Clase2\Base\bin\Debug\assets\enemy.png
+E:\Paradigmas 1C2024\ProyectoBase\Clase4\Clase2\Base\bin\Debug\assets\player.png
+E:\Paradigmas 1C2024\ProyectoBase\Clase4\Clase2\Base\bin\Debug\assets\fondo.png
+E:\Paradigmas 1C2024\ProyectoBase\Clase4\Clase2\Base\bin\Debug\MyGame.exe.config
+E:\Paradigmas 1C2024\ProyectoBase\Clase4\Clase2\Base\bin\Debug\MyGame.exe
+E:\Paradigmas 1C2024\ProyectoBase\Clase4\Clase2\Base\bin\Debug\MyGame.pdb
+E:\Paradigmas 1C2024\ProyectoBase\Clase4\Clase2\Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+E:\Paradigmas 1C2024\ProyectoBase\Clase4\Clase2\Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+E:\Paradigmas 1C2024\ProyectoBase\Clase4\Clase2\Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+E:\Paradigmas 1C2024\ProyectoBase\Clase4\Clase2\Base\obj\Debug\MyGame.csproj.CopyComplete
+E:\Paradigmas 1C2024\ProyectoBase\Clase4\Clase2\Base\obj\Debug\MyGame.exe
+E:\Paradigmas 1C2024\ProyectoBase\Clase4\Clase2\Base\obj\Debug\MyGame.pdb
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\bin\Debug\assets\bullet.png
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\bin\Debug\assets\enemy.png
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\bin\Debug\assets\player.png
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\bin\Debug\assets\fondo.png
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\bin\Debug\MyGame.exe.config
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\bin\Debug\MyGame.exe
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\bin\Debug\MyGame.pdb
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\obj\Debug\MyGame.csproj.CopyComplete
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\obj\Debug\MyGame.exe
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\obj\Debug\MyGame.pdb
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\bin\Debug\assets\Ship\Idle\0.png
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\bin\Debug\assets\Ship\Idle\1.png
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\bin\Debug\assets\Ship\Idle\2.png
+C:\Users\Consultoria\Downloads\Clase4\Clase4\Base\bin\Debug\assets\Ship\Idle\3.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\bullet.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\enemy.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\player.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\fondo.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\Ship\Idle\0.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\Ship\Idle\1.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\Ship\Idle\2.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\Ship\Idle\3.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\MyGame.exe.config
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\MyGame.exe
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\MyGame.pdb
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\obj\Debug\MyGame.csproj.CopyComplete
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\obj\Debug\MyGame.exe
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\obj\Debug\MyGame.pdb
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\Bullet\Idle\0.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\Bullet\Idle\1.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\Bullet\Idle\2.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\Bullet\Idle\3.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\Enemy\Idle\0.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\Enemy\Idle\1.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\Enemy\Idle\2.png
+D:\Paradigmas 1C2024\Clase4ejemplo\Base\bin\Debug\assets\Enemy\Idle\3.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\bullet.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\Bullet\Idle\0.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\Bullet\Idle\1.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\Bullet\Idle\2.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\Bullet\Idle\3.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\enemy.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\Enemy\Idle\0.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\Enemy\Idle\1.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\Enemy\Idle\2.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\Enemy\Idle\3.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\player.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\fondo.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\Ship\Idle\0.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\Ship\Idle\1.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\Ship\Idle\2.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\assets\Ship\Idle\3.png
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\MyGame.exe.config
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\MyGame.exe
+D:\Paradigmas 1C2024\Clase 5\Base\bin\Debug\MyGame.pdb
+D:\Paradigmas 1C2024\Clase 5\Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+D:\Paradigmas 1C2024\Clase 5\Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+D:\Paradigmas 1C2024\Clase 5\Base\obj\Debug\MyGame.exe
+D:\Paradigmas 1C2024\Clase 5\Base\obj\Debug\MyGame.pdb
+D:\Paradigmas 1C2024\Clase 5\Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+D:\Paradigmas 1C2024\Clase 5\Base\obj\Debug\MyGame.csproj.CopyComplete
