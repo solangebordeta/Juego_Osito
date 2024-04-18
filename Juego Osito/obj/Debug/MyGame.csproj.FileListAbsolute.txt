@@ -191,3 +191,27 @@ D:\Paradigmas 1C2024\Clase 5\Base\obj\Debug\MyGame.exe
 D:\Paradigmas 1C2024\Clase 5\Base\obj\Debug\MyGame.pdb
 D:\Paradigmas 1C2024\Clase 5\Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
 D:\Paradigmas 1C2024\Clase 5\Base\obj\Debug\MyGame.csproj.CopyComplete
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\bullet.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Bullet\Idle\0.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Bullet\Idle\1.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Bullet\Idle\2.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Bullet\Idle\3.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\enemy.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Enemy\Idle\0.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Enemy\Idle\1.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Enemy\Idle\2.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Enemy\Idle\3.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\player.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\fondo.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Ship\Idle\0.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Ship\Idle\1.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Ship\Idle\2.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Ship\Idle\3.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\MyGame.exe.config
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\MyGame.exe
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\MyGame.pdb
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\obj\Debug\MyGame.csproj.AssemblyReference.cache
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\obj\Debug\MyGame.csproj.Up2Date
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\obj\Debug\MyGame.exe
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\obj\Debug\MyGame.pdb

@@ -31,23 +31,6 @@ namespace MyGame
                 transform.Translate(new Vector2(1, 0), speed);
             }
 
-            if (Engine.KeyPress(Engine.KEY_UP))
-            {
-                transform.Translate(new Vector2(0, -1), speed);
-            }
-
-            if (Engine.KeyPress(Engine.KEY_DOWN))
-            {
-                transform.Translate(new Vector2(0, 1), speed);
-            }
-
-            if (Engine.KeyPress(Engine.KEY_ESP))
-            {
-                Shoot();
-            }
-
-            if (Engine.KeyPress(Engine.KEY_ESC)) { }
-
         }
 
         public void Shoot()
