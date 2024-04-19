@@ -9,8 +9,8 @@ namespace MyGame
     internal class ObstacleMovement
     {
         private Transform transform;
-        private int speed = 4;
-        private Vector2 direccion = new Vector2(1, 0);
+        private int speed = 3;
+        private Vector2 direccion = new Vector2(0, 1);
         public ObstacleMovement (Transform transform)
         {
             this.transform = transform;
@@ -18,10 +18,7 @@ namespace MyGame
 
         public void MoveObstacle()
         {
-            if (transform.Position.x > 1000 || transform.Position.x < 0)
-            {
-                direccion.x = direccion.x * -1;
-            }
+
             transform.Translate(direccion,speed);
         }
     }
