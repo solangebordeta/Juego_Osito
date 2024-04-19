@@ -1,6 +1,4 @@
-﻿
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Tao.Sdl;
 
@@ -73,19 +71,21 @@ namespace MyGame
 
         private static void CreateEnemies()
         {
-            ObstacleList.Add(new Obstacle(new Vector2(0, 0)));
-            ObstacleList.Add(new Obstacle(new Vector2(200, 0)));
-            ObstacleList.Add(new Obstacle(new Vector2(400, 0)));
-            ObstacleList.Add(new Obstacle(new Vector2(600, 0)));
-            ObstacleList.Add(new Obstacle(new Vector2(800, 0)));
-            ObstacleList.Add(new Obstacle(new Vector2(0, 200)));
-            ObstacleList.Add(new Obstacle(new Vector2(200, 200)));
-            ObstacleList.Add(new Obstacle(new Vector2(400, 200)));
-            ObstacleList.Add(new Obstacle(new Vector2(600, 200)));
-            ObstacleList.Add(new Obstacle(new Vector2(800, 200)));
+            int cellSize = 200;
+
+            int xOffset = 270;
+
+            for (int i = 0; i < 25; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    if ((i + j) % 3 == 0 || (i + j) % 2 == 0)
+                    {
+                        ObstacleList.Add(new Obstacle(new Vector2(xOffset + j * cellSize, -100 - i * cellSize)));
+                    }
+                }
+            }
         }
-
-
 
     }
 

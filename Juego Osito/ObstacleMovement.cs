@@ -9,7 +9,7 @@ namespace MyGame
     internal class ObstacleMovement
     {
         private Transform transform;
-        private int speed = 3;
+        private int speed = 2;
         private Vector2 direccion = new Vector2(0, 1);
         public ObstacleMovement (Transform transform)
         {
