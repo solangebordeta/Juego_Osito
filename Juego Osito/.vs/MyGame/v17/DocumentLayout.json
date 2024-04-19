@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:obstaclemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|f:\\paradigmas de programaci\u00F3n\\juego_osito\\juego osito\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:obstacle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -83,8 +83,7 @@
               "RelativeToolTip": "Obstacle.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T22:51:59.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T22:51:59.315Z"
             },
             {
               "$type": "Document",
