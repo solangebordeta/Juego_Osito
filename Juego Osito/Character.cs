@@ -38,10 +38,29 @@ namespace MyGame
             idleAnimation = new Animation("Idle", idleTextures, 0.1f, true);
             currentAnimation = idleAnimation;
         }
+
+        private void CheckCollisions()
+        {
+            for (int i = 0; i < Program.ObstacleList.Count; i++)
+            {
+                Obstacle obstacle = Program.ObstacleList[i];
+                float distanceX = Math.Abs((obstacle.Transform.Position.x + (obstacle.Transform.Scale.x / 2)) - (transform.Position.x + (transform.Scale.x / 2)));
+                float distanceY = Math.Abs((obstacle.Transform.Position.y + (obstacle.Transform.Scale.y / 2)) - (transform.Position.y + (transform.Scale.y / 2)));
+                float sumHalfWidth = obstacle.Transform.Scale.x / 2 + transform.Scale.x / 2;
+                float sumHalfHeight = obstacle.Transform.Scale.y / 2 + transform.Scale.y / 2;
+
+                if (distanceX < sumHalfWidth && distanceY < sumHalfHeight)
+                {
+                    Console.WriteLine("Colisión detectada!");
+                    Program.ObstacleList.Remove(obstacle);
+                }
+            }
+        }
         public void Update()
         {
             controller.GetInputs();
             currentAnimation.Update();
+            CheckCollisions();
         }
 
 
