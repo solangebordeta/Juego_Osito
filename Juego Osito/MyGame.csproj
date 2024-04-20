@@ -88,7 +88,9 @@
     <Content Include="assets\Bullet\Idle\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\MENU PRINCIPAL.png" />
+    <Content Include="assets\menu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="assets\obstacle.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
