@@ -12,8 +12,8 @@ namespace MyGame
         private Animation idleAnimation;
         private Animation currentAnimation;
         private CharacterController controller;
-        IntPtr image = Engine.LoadImage("assets/player.png");
-
+        IntPtr image = Engine.LoadImage("assets/bear.png");
+        
 
         public Character(Vector2 position) {
             transform = new Transform(position, new Vector2(100,100));

@@ -8,12 +8,12 @@ namespace MyGame
     class Program
     {
                     
-        static IntPtr image = Engine.LoadImage("assets/fondo.png");
+        static IntPtr image = Engine.LoadImage("assets/background.png");
         static public List<Obstacle> ObstacleList = new List<Obstacle>();
         static public List<Bullet> BulletList = new List<Bullet>();
         private static Time _time;
 
-        static Character player = new Character(new Vector2(400,700));
+        static Character player = new Character(new Vector2(480,500));
 
         static void Main(string[] args)
         {

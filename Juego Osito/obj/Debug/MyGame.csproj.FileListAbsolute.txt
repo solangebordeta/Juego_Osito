@@ -236,6 +236,16 @@ C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\MyGame.exe
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\MyGame.pdb
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\obj\Debug\MyGame.csproj.AssemblyReference.cache
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
-C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\obj\Debug\MyGame.csproj.CopyComplete
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\obj\Debug\MyGame.exe
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\obj\Debug\MyGame.pdb
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\arbol.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\background.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Bear\walking\0.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Bear\walking\1.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Bear\walking\diagonal der.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Bear\walking\diagonal izq.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\menu.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\pez.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\tierra.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\bear.png

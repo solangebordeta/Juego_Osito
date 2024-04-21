@@ -69,12 +69,27 @@
     <Folder Include="assets\Bear\loser\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\arbol.png" />
-    <Content Include="assets\background.png" />
-    <Content Include="assets\Bear\walking\0.png" />
-    <Content Include="assets\Bear\walking\1.png" />
-    <Content Include="assets\Bear\walking\diagonal der.png" />
-    <Content Include="assets\Bear\walking\diagonal izq.png" />
+    <Content Include="assets\arbol.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\background.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\bear.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\Bear\walking\0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\Bear\walking\1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\Bear\walking\diagonal der.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\Bear\walking\diagonal izq.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="assets\bullet.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -117,7 +132,9 @@
     <Content Include="assets\Obstacle\Idle\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\pez.png" />
+    <Content Include="assets\pez.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="assets\player.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -136,7 +153,9 @@
     <Content Include="assets\Ship\Idle\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\tierra.png" />
+    <Content Include="assets\tierra.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
