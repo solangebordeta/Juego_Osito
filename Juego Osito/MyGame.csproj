@@ -69,6 +69,8 @@
     <Folder Include="assets\Bear\loser\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\arbol.png" />
+    <Content Include="assets\background.png" />
     <Content Include="assets\Bear\walking\0.png" />
     <Content Include="assets\Bear\walking\1.png" />
     <Content Include="assets\Bear\walking\diagonal der.png" />
@@ -115,6 +117,7 @@
     <Content Include="assets\Obstacle\Idle\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="assets\pez.png" />
     <Content Include="assets\player.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -133,6 +136,7 @@
     <Content Include="assets\Ship\Idle\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="assets\tierra.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
