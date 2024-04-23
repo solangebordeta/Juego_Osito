@@ -169,6 +169,9 @@
     <Content Include="assets\Obstacle\Idle\3.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="assets\perdiste.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="assets\pez.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
