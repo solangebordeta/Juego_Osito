@@ -9,8 +9,7 @@ namespace MyGame
     public class Character
     {
         private Transform transform;
-        private Animation run;
-        private Animation lose;
+        private Animation idleAnimation;
         private Animation currentAnimation;
         private CharacterController controller;
         IntPtr image = Engine.LoadImage("assets/bear.png");
@@ -28,28 +27,19 @@ namespace MyGame
             Engine.Draw(currentAnimation.CurrentFrame, transform.Position.x, transform.Position.y);
         }
 
-        public void CreateAnimations()
+        private void CreateAnimations()
         {
-            List<IntPtr> runningTextures = new List<IntPtr>();
-            for (int i = 0; i < 2; i++)
+            List<IntPtr> idleTextures = new List<IntPtr>();
+            for (int i = 0; i < 4; i++)
             {
-                IntPtr frame = Engine.LoadImage($"assets/Bear/walking/{i}.png");
-                runningTextures.Add(frame);
+                IntPtr frame = Engine.LoadImage($"assets/Ship/Idle/{i}.png");
+                idleTextures.Add(frame);
             }
-            run = new Animation("run", runningTextures, 0.2f, true);
-            currentAnimation = run;
-
-            List<IntPtr> losingTextures = new List<IntPtr>();
-            for (int i = 0; i < 15; i++)
-            {
-                IntPtr frame = Engine.LoadImage($"assets/Bear/loser/{i}.png");
-                losingTextures.Add(frame);
-            }
-            lose = new Animation("lose", losingTextures, 0.2f, true);
-            
+            idleAnimation = new Animation("Idle", idleTextures, 0.1f, true);
+            currentAnimation = idleAnimation;
         }
 
-        public void CheckCollisions()
+        private void CheckCollisions()
         {
             for (int i = 0; i < Program.ObstacleList.Count; i++)
             {
@@ -71,8 +61,6 @@ namespace MyGame
             controller.GetInputs();
             currentAnimation.Update();
             CheckCollisions();
-
-            
         }
 
 

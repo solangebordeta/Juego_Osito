@@ -215,8 +215,6 @@ F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Idle\1.png
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Idle\2.png
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Idle\3.png
-<<<<<<< Updated upstream
-=======
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\bullet.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Bullet\Idle\0.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Bullet\Idle\1.png
@@ -264,5 +262,3 @@ C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Bear\lo
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Bear\loser\7.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Bear\loser\8.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Bear\loser\9.png
-C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\perdiste.png
->>>>>>> Stashed changes
