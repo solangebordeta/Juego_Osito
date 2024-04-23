@@ -7,13 +7,22 @@ namespace MyGame
 
     class Program
     {
+<<<<<<< Updated upstream
                     
         static IntPtr image = Engine.LoadImage("assets/fondo.png");
+=======
+        
+        static IntPtr image = Engine.LoadImage("assets/background.png");
+>>>>>>> Stashed changes
         static public List<Obstacle> ObstacleList = new List<Obstacle>();
         static public List<Bullet> BulletList = new List<Bullet>();
         private static Time _time;
 
+<<<<<<< Updated upstream
         static Character player = new Character(new Vector2(400,700));
+=======
+        static Character player = new Character(new Vector2(480, 400));
+>>>>>>> Stashed changes
 
         static void Main(string[] args)
         {
