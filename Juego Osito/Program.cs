@@ -73,9 +73,9 @@ namespace MyGame
 
         private static void CreateEnemies()
         {
-            int cellSize = 200;
+            int cellSize = 250;
 
-            int xOffset = 270;
+            int xOffset = 200;
 
             for (int i = 0; i < 25; i++)
             {

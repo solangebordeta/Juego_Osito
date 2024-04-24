@@ -47,11 +47,6 @@ namespace MyGame
             //currentAnimation.Update();
             ObstacleMovement.MoveObstacle();
 
-            if (Program.ObstacleList.Count == 20)
-            {
-                 
-                GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
-            }
         }
     }
 }
