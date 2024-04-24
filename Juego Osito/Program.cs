@@ -24,14 +24,14 @@ namespace MyGame
             while (true)
             {
 
-                Update();
-                Render();
+                GameManager.Instance.Update();
+                GameManager.Instance.Render();
 
                 Sdl.SDL_Delay(20);
             }
         }
 
-        private static void Render()
+        public static void Render()
         {
             Engine.Clear();
 
@@ -54,7 +54,7 @@ namespace MyGame
             Engine.Show();
         }
 
-        private static void Update()
+        public static void Update()
         {
             player.Update();
             

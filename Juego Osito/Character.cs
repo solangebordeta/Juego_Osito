@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Security;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,12 +11,14 @@ namespace MyGame
     {
         private Transform transform;
         private Animation walk;
+        private Animation lose;
         private Animation currentAnimation;
         private CharacterController controller;
-        IntPtr image = Engine.LoadImage("assets/player.png");
+        IntPtr image = Engine.LoadImage("assets/obstacle.png");
         
 
-        public Character(Vector2 position) {
+        public Character(Vector2 position) 
+        {
             transform = new Transform(position, new Vector2(100,100));
             controller = new CharacterController(transform);
             CreateAnimations();
@@ -32,11 +35,25 @@ namespace MyGame
             List<IntPtr> walkingTextures = new List<IntPtr>();
             for (int i = 0; i < 4; i++)
             {
-                IntPtr frame = Engine.LoadImage($"assets/Ship/Idle/{i}.png");
+                IntPtr frame = Engine.LoadImage($"assets/Obstacle/Idle/{i}.png");
                 walkingTextures.Add(frame);
             }
-            walk = new Animation("Walk", walkingTextures, 0.1f, true);
+            walk = new Animation("Walk", walkingTextures, 0.2f, true);
             currentAnimation = walk;
+
+            List<IntPtr> losingTextures = new List<IntPtr>();
+            for (int i = 0; i < 8; i++)
+            {
+                IntPtr frame = Engine.LoadImage($"assets/Obstacle/Explosion/{i}.png");
+                losingTextures.Add(frame);
+            }
+            lose = new Animation("Lose", walkingTextures, 0.2f, true);
+            currentAnimation = lose;
+        }
+
+        public void ChangeAnimation()
+        {
+            currentAnimation = lose;
         }
 
         private void CheckCollisions()
@@ -53,14 +70,25 @@ namespace MyGame
                 {
                     Console.WriteLine("Colisión detectada!");
                     Program.ObstacleList.Remove(obstacle);
+                    ChangeAnimation();
+                    GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
+                    
+
                 }
+
+                
             }
         }
+
+
+
+
         public void Update()
         {
             controller.GetInputs();
             currentAnimation.Update();
             CheckCollisions();
+
         }
 
 
