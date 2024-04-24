@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Net.Security;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using Tao.Sdl;
 
 namespace MyGame
 {
@@ -15,11 +18,11 @@ namespace MyGame
         private Animation currentAnimation;
         private CharacterController controller;
         IntPtr image = Engine.LoadImage("assets/obstacle.png");
-        
 
-        public Character(Vector2 position) 
+
+        public Character(Vector2 position)
         {
-            transform = new Transform(position, new Vector2(100,100));
+            transform = new Transform(position, new Vector2(100, 100));
             controller = new CharacterController(transform);
             CreateAnimations();
         }
@@ -56,6 +59,17 @@ namespace MyGame
             currentAnimation = lose;
         }
 
+        //quiero hacer un delay para que cuando pierda, 
+        //no aparezca al toque la pantalla de derrota
+        //asi se aprecia la animacion
+
+        /*private void DelayAfterLosing(int delay) 
+        {
+            timeDelay = 3;
+
+            
+        }*/
+
         private void CheckCollisions()
         {
             for (int i = 0; i < Program.ObstacleList.Count; i++)
@@ -71,6 +85,7 @@ namespace MyGame
                     Console.WriteLine("Colisión detectada!");
                     Program.ObstacleList.Remove(obstacle);
                     ChangeAnimation();
+                    
                     GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
                     
 
