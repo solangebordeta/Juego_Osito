@@ -12,7 +12,7 @@ namespace MyGame
         private Animation idleAnimation;
         private Animation currentAnimation;
         private CharacterController controller;
-        IntPtr image = Engine.LoadImage("assets/bear.png");
+        //IntPtr image = Engine.LoadImage("assets/bear.png");
         
 
         public Character(Vector2 position) {
