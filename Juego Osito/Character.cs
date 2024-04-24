@@ -9,10 +9,10 @@ namespace MyGame
     public class Character
     {
         private Transform transform;
-        private Animation idleAnimation;
+        private Animation walk;
         private Animation currentAnimation;
         private CharacterController controller;
-        //IntPtr image = Engine.LoadImage("assets/bear.png");
+        IntPtr image = Engine.LoadImage("assets/player.png");
         
 
         public Character(Vector2 position) {
@@ -29,14 +29,14 @@ namespace MyGame
 
         private void CreateAnimations()
         {
-            List<IntPtr> idleTextures = new List<IntPtr>();
+            List<IntPtr> walkingTextures = new List<IntPtr>();
             for (int i = 0; i < 4; i++)
             {
                 IntPtr frame = Engine.LoadImage($"assets/Ship/Idle/{i}.png");
-                idleTextures.Add(frame);
+                walkingTextures.Add(frame);
             }
-            idleAnimation = new Animation("Idle", idleTextures, 0.1f, true);
-            currentAnimation = idleAnimation;
+            walk = new Animation("Walk", walkingTextures, 0.1f, true);
+            currentAnimation = walk;
         }
 
         private void CheckCollisions()
