@@ -33,15 +33,6 @@ namespace MyGame
 
         }
 
-        public void Shoot()
-        {
-            DateTime currentTime = DateTime.Now;
-            if ((currentTime - timeLastShoot).TotalSeconds >= timeBetweenShoots)
-            {
-                Program.BulletList.Add(new Bullet(new Vector2(transform.Position.x + 48, transform.Position.y)));
-                timeLastShoot = currentTime;
-            }
-    ;
-        }
+       
     }
 }
