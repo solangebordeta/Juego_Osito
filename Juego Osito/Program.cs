@@ -37,7 +37,7 @@ namespace MyGame
 
             Engine.Draw(image, 0, 0);
 
-            player.Render();
+            
             
             for (int i = 0; i < BulletList.Count; i++)
             {
@@ -48,6 +48,8 @@ namespace MyGame
             {
                 ObstacleList[i].Render();
             }
+
+            player.Render();
 
             Engine.Show();
         }

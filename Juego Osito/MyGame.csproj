@@ -73,10 +73,13 @@
     <Content Include="assets\background.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\Bear\caminando\caminando_1.png">
+    <Content Include="assets\bear.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\Bear\caminando\caminando_2.png">
+    <Content Include="assets\Bear\caminando\1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\Bear\caminando\2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="assets\Bear\perder\0.png">
