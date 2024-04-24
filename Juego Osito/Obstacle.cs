@@ -23,6 +23,8 @@ namespace MyGame
             //CreateAnimations();
         }
 
+        // PROBABLEMENTE LE AGREGUEMOS ANIMACION AL ARBOL MAS ADELANTE
+        
         /*private void CreateAnimations()
         {
             List<IntPtr> idleTextures = new List<IntPtr>();
@@ -33,7 +35,7 @@ namespace MyGame
             }
             idleAnimation = new Animation("Idle", idleTextures, 0.1f, true);
             currentAnimation = idleAnimation;
-        }*/
+        }*/ 
 
         public void Render()
         {
@@ -44,6 +46,12 @@ namespace MyGame
         {
             //currentAnimation.Update();
             ObstacleMovement.MoveObstacle();
+
+            if (Program.ObstacleList.Count == 20)
+            {
+                 
+                GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
+            }
         }
     }
 }

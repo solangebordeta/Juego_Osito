@@ -263,3 +263,11 @@ C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\perdist
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Bear\caminando\1.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Bear\caminando\2.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\bear.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\0.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\1.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\2.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\3.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\4.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\5.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\6.png
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\7.png
