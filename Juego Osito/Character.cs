@@ -36,22 +36,22 @@ namespace MyGame
         private void CreateAnimations()
         {
             List<IntPtr> walkingTextures = new List<IntPtr>();
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 2; i++)
             {
-                IntPtr frame = Engine.LoadImage($"assets/Obstacle/Idle/{i}.png");
+                IntPtr frame = Engine.LoadImage($"assets/osito/walk/{i}.png");
                 walkingTextures.Add(frame);
             }
             walk = new Animation("Walk", walkingTextures, 0.2f, true);
             currentAnimation = walk;
 
             List<IntPtr> losingTextures = new List<IntPtr>();
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < 15; i++)
             {
-                IntPtr frame = Engine.LoadImage($"assets/Obstacle/Explosion/{i}.png");
+                IntPtr frame = Engine.LoadImage($"assets/osito/lose/{i}.png");
                 losingTextures.Add(frame);
             }
             lose = new Animation("Lose", walkingTextures, 0.2f, true);
-            currentAnimation = lose;
+            
         }
 
         public void ChangeAnimation()
