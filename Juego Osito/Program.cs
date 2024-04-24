@@ -13,7 +13,7 @@ namespace MyGame
         static public List<Bullet> BulletList = new List<Bullet>();
         private static Time _time;
 
-        static Character player = new Character(new Vector2(480,500));
+        static Character player = new Character(new Vector2(480,400));
 
         static void Main(string[] args)
         {
