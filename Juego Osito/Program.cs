@@ -10,7 +10,6 @@ namespace MyGame
                     
         static IntPtr image = Engine.LoadImage("assets/background.png");
         static public List<Obstacle> ObstacleList = new List<Obstacle>();
-        static public List<Bullet> BulletList = new List<Bullet>();
         private static Time _time;
 
         static Character player = new Character(new Vector2(480,400));
@@ -37,13 +36,6 @@ namespace MyGame
 
             Engine.Draw(image, 0, 0);
 
-            
-            
-            for (int i = 0; i < BulletList.Count; i++)
-            {
-                BulletList[i].Render();
-            }
-            
             for (int i = 0; i < ObstacleList.Count; i++)
             {
                 ObstacleList[i].Render();
@@ -58,10 +50,6 @@ namespace MyGame
         {
             player.Update();
             
-            for(int i = 0; i < BulletList.Count; i++)
-            {
-                BulletList[i].Update();
-            }
 
             for (int i = 0; i < ObstacleList.Count; i++)
             {
