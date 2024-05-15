@@ -6,19 +6,17 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class Obstacle
+    public class Obstacle : GameObject
     {
-        private Transform transform;
+        
         private Animation idle;
-        private Animation currentAnimation;
         public Transform Transform => transform;
         private ObstacleMovement ObstacleMovement;
 
         IntPtr image = Engine.LoadImage("assets/arbol.png");
 
-        public Obstacle(Vector2 pos)
+        public Obstacle(Vector2 position) : base(position)
         {
-            transform = new Transform(pos,new Vector2(100, 100));
             ObstacleMovement = new ObstacleMovement(transform);
             CreateAnimations();
         }
@@ -37,17 +35,15 @@ namespace MyGame
             currentAnimation = idle;
         }
 
-        public void Render()
+        public override void Render()
         {
             Engine.Draw(currentAnimation.CurrentFrame, transform.Position.x, transform.Position.y);
         }
 
-        public void Update()
+        public override void Update()
         {
-        
-            currentAnimation.Update();
+            base.Update();
             ObstacleMovement.MoveObstacle();
-
         }
     }
 }

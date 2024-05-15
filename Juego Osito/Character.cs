@@ -10,29 +10,24 @@ using Tao.Sdl;
 
 namespace MyGame
 {
-    public class Character
+    public class Character : GameObject
     {
-        private Transform transform;
+        
         private Animation walk;
-        private Animation lose;
-        private Animation currentAnimation;
+        private Animation lose;   
         private CharacterController controller;
         IntPtr image = Engine.LoadImage("assets/obstacle.png");
 
+        //transform.Position = new Vector2(200, 200);
 
-        public Character(Vector2 position)
+
+        public Character(Vector2 position) : base(position)
         {
-            transform = new Transform(position, new Vector2(100, 100));
             controller = new CharacterController(transform);
             CreateAnimations();
         }
 
-        public void Render()
-        {
-            transform.Position = new Vector2(200, 200);
-            Engine.Draw(currentAnimation.CurrentFrame, transform.Position.x, transform.Position.y);
-        }
-
+  
         private void CreateAnimations()
         {
             List<IntPtr> walkingTextures = new List<IntPtr>();
@@ -95,13 +90,10 @@ namespace MyGame
             }
         }
 
-
-
-
-        public void Update()
+        public override void Update()
         {
+            base.Update();
             controller.GetInputs();
-            currentAnimation.Update();
             CheckCollisions();
 
         }
