@@ -16,7 +16,7 @@ namespace MyGame
         private Animation walk;
         private Animation lose;   
         private CharacterController controller;
-        IntPtr image = Engine.LoadImage("assets/obstacle.png");
+        
 
         //transform.Position = new Vector2(200, 200);
 

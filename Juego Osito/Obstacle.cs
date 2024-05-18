@@ -13,8 +13,6 @@ namespace MyGame
         public Transform Transform => transform;
         private ObstacleMovement ObstacleMovement;
 
-        IntPtr image = Engine.LoadImage("assets/arbol.png");
-
         public Obstacle(Vector2 position) : base(position)
         {
             ObstacleMovement = new ObstacleMovement(transform);
