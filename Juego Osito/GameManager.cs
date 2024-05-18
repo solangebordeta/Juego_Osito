@@ -16,7 +16,7 @@ namespace MyGame
         private static GameManager instance;
         private GameStatus gameStart = GameStatus.menu;  
         private IntPtr menuScreen = Engine.LoadImage("assets/menu.png");
-        private IntPtr defeatScreen = Engine.LoadImage("assets/perdiste.png");
+        private IntPtr defeatScreen = Engine.LoadImage("assets/pantalladerrota.png");
 
         public static GameManager Instance
 
