@@ -18,6 +18,9 @@ namespace MyGame
         private IntPtr menuScreen = Engine.LoadImage("assets/menu.png");
         private IntPtr defeatScreen = Engine.LoadImage("assets/pantalladerrota.png");
 
+        private LevelController levelController = new LevelController();
+
+        public LevelController LevelController => levelController;
         public static GameManager Instance
 
         {
@@ -29,6 +32,12 @@ namespace MyGame
                 }
                 return instance;
             }
+        }
+
+        public void Initialize()
+        {
+            levelController = new LevelController();
+            levelController.Initialize();
         }
 
         public void Update()
@@ -46,7 +55,7 @@ namespace MyGame
 
                 case GameStatus.game:
 
-                    Program.Update();
+                    levelController.Update();
                     break;
 
                 case GameStatus.lose:
@@ -85,7 +94,7 @@ namespace MyGame
                     break;
 
                 case GameStatus.game:
-                    Program.Render();
+                    levelController.Render();
                     break;
 
                 case GameStatus.lose:

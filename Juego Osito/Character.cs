@@ -57,7 +57,7 @@ namespace MyGame
             } 
         }
 
-        
+
 
         //quiero hacer un delay para que cuando pierda, 
         //no aparezca al toque la pantalla de derrota
@@ -79,18 +79,18 @@ namespace MyGame
 
         private void CheckCollisions()
         {
-            for (int i = 0; i < Program.ObstacleList.Count; i++)
+            for (int i = 0; i < LevelController.GameObjectList.Count; i++) //le voy a preguntar al profe sobre esto
             {
-                Obstacle obstacle = Program.ObstacleList[i];
-                float distanceX = Math.Abs((obstacle.Transform.Position.x + (obstacle.Transform.Scale.x / 2)) - (transform.Position.x + (transform.Scale.x / 2)));
-                float distanceY = Math.Abs((obstacle.Transform.Position.y + (obstacle.Transform.Scale.y / 2)) - (transform.Position.y + (transform.Scale.y / 2)));
-                float sumHalfWidth = obstacle.Transform.Scale.x / 2 + transform.Scale.x / 2;
-                float sumHalfHeight = obstacle.Transform.Scale.y / 2 + transform.Scale.y / 2;
+                GameObject gameObject = LevelController.GameObjectList[i];
+                float distanceX = Math.Abs((gameObject.Transform.Position.x + (gameObject.Transform.Scale.x / 2)) - (transform.Position.x + (transform.Scale.x / 2)));
+                float distanceY = Math.Abs((gameObject.Transform.Position.y + (gameObject.Transform.Scale.y / 2)) - (transform.Position.y + (transform.Scale.y / 2)));
+                float sumHalfWidth = gameObject.Transform.Scale.x / 2 + transform.Scale.x / 2;
+                float sumHalfHeight = gameObject.Transform.Scale.y / 2 + transform.Scale.y / 2;
 
                 if (distanceX < sumHalfWidth && distanceY < sumHalfHeight)
                 {
                     Console.WriteLine("Colisión detectada!");
-                    Program.ObstacleList.Remove(obstacle); 
+                    LevelController.GameObjectList.Remove(gameObject); 
                     ChangeAnimation();
                     //DelayAfterLosing();
                     GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);

@@ -52,6 +52,7 @@
     <Compile Include="CharacterController.cs" />
     <Compile Include="GameManager.cs" />
     <Compile Include="GameObject.cs" />
+    <Compile Include="LevelController.cs" />
     <Compile Include="Obstacle.cs" />
     <Compile Include="ObstacleMovement.cs" />
     <Compile Include="Font.cs" />
