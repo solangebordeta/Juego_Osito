@@ -45,24 +45,36 @@ namespace MyGame
                 IntPtr frame = Engine.LoadImage($"assets/osito/lose/{i}.png");
                 losingTextures.Add(frame);
             }
-            lose = new Animation("Lose", walkingTextures, 0.2f, true);
+            lose = new Animation("Lose", losingTextures, 0.2f, true);
             
         }
 
-        public void ChangeAnimation()
+        public void ChangeAnimation() //cuando pierdo se cambia la animacion
         {
-            currentAnimation = lose;
+            if (currentAnimation != null) 
+            {
+                currentAnimation = lose;
+            } 
         }
+
+        
 
         //quiero hacer un delay para que cuando pierda, 
         //no aparezca al toque la pantalla de derrota
         //asi se aprecia la animacion
 
-        /*private void DelayAfterLosing(int delay) 
+        /*public void DelayAfterLosing() 
         {
-            timeDelay = 3;
+            int currentTime = 0;
+            int delay = 3;
 
-            
+            if (currentAnimation  == lose)
+            {
+                CheckCollisions();
+                ChangeAnimation();
+                currentTime += delay;  
+            }
+         
         }*/
 
         private void CheckCollisions()
@@ -78,9 +90,9 @@ namespace MyGame
                 if (distanceX < sumHalfWidth && distanceY < sumHalfHeight)
                 {
                     Console.WriteLine("Colisión detectada!");
-                    Program.ObstacleList.Remove(obstacle);
+                    Program.ObstacleList.Remove(obstacle); 
                     ChangeAnimation();
-                    
+                    DelayAfterLosing();
                     GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
                     
 

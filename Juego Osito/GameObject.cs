@@ -16,6 +16,8 @@ namespace MyGame
             transform = new Transform(position, new Vector2(100, 100));
             //CreateAnimations(); --> lo agrego mas tarde
         }
+
+        
         public virtual void Render()
         {
             Engine.Draw(currentAnimation.CurrentFrame, transform.Position.x, transform.Position.y);
