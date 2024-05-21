@@ -37,6 +37,7 @@ namespace MyGame
             switch (gameStart)
             {
                 case GameStatus.menu:
+
                     if (Engine.KeyPress(Engine.KEY_ESP))
                     {
                         gameStart = GameStatus.game;
@@ -44,11 +45,31 @@ namespace MyGame
                     break;
 
                 case GameStatus.game:
+
                     Program.Update();
                     break;
 
                 case GameStatus.lose:
+
+                    if(Engine.KeyPress(Engine.KEY_ESP))
+                    { 
+                        gameStart = GameStatus.game;
+                    }
+
+                    // lo de arriba pasaba que, cuando quiero volver a jugar apretando espacio
+                    // la animacion cambia a la de perder y termina siendo mi current animation 
+                    // esto pasa cuando arranco a jugar de vuelta desde la pantalla de derrota, 
+                    // no volviendo al menu
+                    // YA ESTA :), basicamente en check colision (en la clase character)
+                    // despues del game instance cambie el estado de la animacion 
+
+                    if (Engine.KeyPress(Engine.KEY_ESC))
+                    {
+                        gameStart = GameStatus.menu;
+                    }
                     break;
+
+                
                    
             }
         }

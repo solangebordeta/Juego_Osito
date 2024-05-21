@@ -92,9 +92,11 @@ namespace MyGame
                     Console.WriteLine("Colisión detectada!");
                     Program.ObstacleList.Remove(obstacle); 
                     ChangeAnimation();
-                    DelayAfterLosing();
+                    //DelayAfterLosing();
                     GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
-                    
+                    currentAnimation = walk; //aca hice q cuando pierdo, y quiero volver a jugar
+                                             //mi current animation cambie de perder a caminar
+                                             //puede q esto lo cambie mas adelante si genera conflicto con el delay
 
                 }
 
