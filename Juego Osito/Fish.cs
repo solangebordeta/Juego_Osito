@@ -8,7 +8,7 @@ namespace MyGame
 {
     public class Fish : GameObject
     {
-        private static IntPtr image = Engine.LoadImage("assets/fish.png");
+        private static IntPtr image = Engine.LoadImage("assets/pez.png");
         public Transform Transform => transform;
         //private FishMovement FishMovement; //Aqui era originalmente ObstacleMovement pero para adpatarlo a Fish a lo mejor deberia 
         //crear un FishMovement que haga lo mismo
@@ -19,12 +19,12 @@ namespace MyGame
         }
         public override void Render()
         {
-            Engine.Draw(currentAnimation.CurrentFrame, transform.Position.x, transform.Position.y);
+            Engine.Draw(image, transform.Position.x, transform.Position.y);
         }
         public override void Update()
         {
             base.Update();
-            //ObstacleMovement.MoveObstacle();
+            //ObstacleMovement.MoveObstacle(); //Esto por si quiero darle el mismo tipo de movimiento que los obstaculos.
         }
     }
 }

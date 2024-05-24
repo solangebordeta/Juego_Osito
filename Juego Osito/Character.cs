@@ -87,16 +87,26 @@ namespace MyGame
                 float sumHalfWidth = gameObject.Transform.Scale.x / 2 + transform.Scale.x / 2;
                 float sumHalfHeight = gameObject.Transform.Scale.y / 2 + transform.Scale.y / 2;
 
+
                 if (distanceX < sumHalfWidth && distanceY < sumHalfHeight)
                 {
-                    Console.WriteLine("Colisión detectada!");
-                    LevelController.GameObjectList.Remove(gameObject); 
-                    ChangeAnimation();
-                    //DelayAfterLosing();
-                    GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
-                    currentAnimation = walk; //aca hice q cuando pierdo, y quiero volver a jugar
-                                             //mi current animation cambie de perder a caminar
-                                             //puede q esto lo cambie mas adelante si genera conflicto con el delay
+
+                    if (gameObject is Fish) // Verifica si el objeto es un pez
+                    {
+                        Console.WriteLine("¡Capturaste un pez!");
+                        LevelController.GameObjectList.Remove(gameObject); //ESTO SE TENDRIA QUE MODIFICAR CUANDO SE HAGA EL FACTORY. 
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Colisión detectada con un obstaculo!");
+                        LevelController.GameObjectList.Remove(gameObject);
+                        ChangeAnimation();
+                        //DelayAfterLosing();
+                        GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
+                        currentAnimation = walk; //aca hice q cuando pierdo, y quiero volver a jugar
+                                                 //mi current animation cambie de perder a caminar
+                    }
 
                 }
 

@@ -10,8 +10,6 @@ namespace MyGame
     {
         private int speed = 5;
         private Transform transform;
-        private DateTime timeLastShoot;
-        private float timeBetweenShoots = 1;
 
         public CharacterController(Transform transform)
         {

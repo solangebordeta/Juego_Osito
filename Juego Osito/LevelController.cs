@@ -13,6 +13,7 @@ namespace MyGame
         private static Time _time;
 
         static Character player = new Character(new Vector2(480, 400));
+        static Fish fish = new Fish(new Vector2(480, 480));
 
         public void Initialize()
         {
@@ -32,6 +33,8 @@ namespace MyGame
             }
 
             player.Render();
+
+            fish.Render();
 
             Engine.Show();
         }
