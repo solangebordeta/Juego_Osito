@@ -13,10 +13,11 @@ namespace MyGame
         private static Time _time;
 
         static Character player = new Character(new Vector2(480, 400));
-        static Fish fish = new Fish(new Vector2(480, 480));
+        static Fish fish = new Fish(new Vector2(480, 400));
 
         public void Initialize()
         {
+            Console.WriteLine("HOLA MUNDO");
             CreateEnemies();
             _time.Initialize();
         }
