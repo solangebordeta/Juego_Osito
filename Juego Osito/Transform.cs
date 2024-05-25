@@ -11,18 +11,7 @@ namespace MyGame
         private Vector2 position;
         private Vector2 scale;
         public Vector2 Scale => scale;
-        public Vector2 Position
-        {
-            set {
-
-            }
-
-            get {
-                return position;
-            }
-        }
-        
-
+        public Vector2 Position => position;
         public Transform(Vector2 position, Vector2 scale)
         {
             this.position = position;
