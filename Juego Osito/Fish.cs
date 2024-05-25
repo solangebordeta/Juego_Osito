@@ -8,18 +8,30 @@ namespace MyGame
 {
     public class Fish : GameObject
     {
-        private static IntPtr image = Engine.LoadImage("assets/pez.png");
-        public Transform Transform => transform;
+        private Animation idle;
         //private FishMovement FishMovement; //Aqui era originalmente ObstacleMovement pero para adpatarlo a Fish a lo mejor deberia 
         //crear un FishMovement que haga lo mismo
 
         public Fish(Vector2 position) : base(position)
         {
+            CreateAnimations();
             //FishMovement = new FishMovement(transform);
+        }
+
+        private void CreateAnimations()
+        {
+            List<IntPtr> idleTextures = new List<IntPtr>();
+            for (int i = 0; i < 5; i++)
+            {
+                IntPtr frame = Engine.LoadImage($"assets/pez.png");
+                idleTextures.Add(frame);
+            }
+            idle = new Animation("Idle", idleTextures, 0.1f, true);
+            currentAnimation = idle;
         }
         public override void Render()
         {
-            Engine.Draw(image, transform.Position.x, transform.Position.y);
+            Engine.Draw(currentAnimation.CurrentFrame, transform.Position.x, transform.Position.y);
         }
         public override void Update()
         {

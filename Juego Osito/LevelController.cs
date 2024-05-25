@@ -17,7 +17,7 @@ namespace MyGame
 
         public void Initialize()
         {
-            Console.WriteLine("HOLA MUNDO");
+            System.Console.WriteLine("Hola MUNDO!!");
             CreateEnemies();
             _time.Initialize();
         }
@@ -34,8 +34,6 @@ namespace MyGame
             }
 
             player.Render();
-
-            fish.Render();
 
             Engine.Show();
         }
@@ -65,7 +63,7 @@ namespace MyGame
                 {
                     if ((i + j) % 3 == 0 || (i + j) % 2 == 0)
                     {
-                        GameObjectList.Add(new GameObject(new Vector2(xOffset + j * cellSize, -100 - i * cellSize)));
+                        GameObjectList.Add(new Obstacle(new Vector2(xOffset + j * cellSize, -100 - i * cellSize)));
                     }
                 }
             }

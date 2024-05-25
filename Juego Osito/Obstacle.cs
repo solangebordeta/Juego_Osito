@@ -10,7 +10,6 @@ namespace MyGame
     {
         
         private Animation idle;
-        public Transform Transform => transform;
         private ObstacleMovement ObstacleMovement;
 
         public Obstacle(Vector2 position) : base(position)
