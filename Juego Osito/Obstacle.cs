@@ -10,11 +10,11 @@ namespace MyGame
     {
         
         private Animation idle;
-        private ObstacleMovement ObstacleMovement;
+        private ObstacleMovement obstacleMovement;
 
         public Obstacle(Vector2 position) : base(position)
         {
-            ObstacleMovement = new ObstacleMovement(transform);
+            obstacleMovement = new ObstacleMovement(transform);
             CreateAnimations();
         }
 
@@ -40,7 +40,7 @@ namespace MyGame
         public override void Update()
         {
             base.Update();
-            ObstacleMovement.MoveObstacle();
+            obstacleMovement.MoveObstacle();
         }
     }
 }
