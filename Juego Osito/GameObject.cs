@@ -10,6 +10,7 @@ namespace MyGame
     {
         protected Transform transform;
         protected Animation currentAnimation;
+        public Transform Transform => transform;
 
         public GameObject(Vector2 position) 
         {

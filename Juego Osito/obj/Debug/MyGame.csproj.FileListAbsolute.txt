@@ -191,17 +191,6 @@ D:\Paradigmas 1C2024\Clase 5\Base\obj\Debug\MyGame.exe
 D:\Paradigmas 1C2024\Clase 5\Base\obj\Debug\MyGame.pdb
 D:\Paradigmas 1C2024\Clase 5\Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
 D:\Paradigmas 1C2024\Clase 5\Base\obj\Debug\MyGame.csproj.CopyComplete
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\bullet.png
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Bullet\Idle\0.png
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Bullet\Idle\1.png
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Bullet\Idle\2.png
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Bullet\Idle\3.png
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\player.png
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\fondo.png
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Ship\Idle\0.png
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Ship\Idle\1.png
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Ship\Idle\2.png
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Ship\Idle\3.png
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\MyGame.exe.config
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\MyGame.exe
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\MyGame.pdb
@@ -210,7 +199,6 @@ F:\Paradigmas de Programación\Juego_Osito\Juego Osito\obj\Debug\MyGame.csproj.C
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\obj\Debug\MyGame.csproj.Up2Date
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\obj\Debug\MyGame.exe
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\obj\Debug\MyGame.pdb
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\obstacle.png
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Idle\0.png
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Idle\1.png
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Idle\2.png
@@ -264,3 +252,40 @@ C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\osito\l
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\osito\walk\0.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\osito\walk\1.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\pantalladerrota.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Arbol\Idle\0.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Arbol\Idle\1.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Arbol\Idle\2.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Arbol\Idle\3.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Arbol\Idle\4.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\arbol.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\background.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\bear.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\menu.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\0.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\1.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\2.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\3.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\4.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\5.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\6.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Obstacle\Explosion\7.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\0.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\1.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\10.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\11.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\12.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\13.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\14.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\2.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\3.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\4.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\5.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\6.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\7.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\8.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\9.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\walk\0.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\walk\1.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\pantalladerrota.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\pez.png
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\tierra.png
