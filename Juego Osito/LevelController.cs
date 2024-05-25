@@ -13,7 +13,7 @@ namespace MyGame
         private static Time _time;
 
         static Character player = new Character(new Vector2(480, 400));
-        static Fish fish = new Fish(new Vector2(480, 200));
+        static Fish fish = new Fish(new Vector2(480, 100));
 
         public void Initialize()
         {
@@ -43,13 +43,11 @@ namespace MyGame
         public void Update()
         {
             player.Update();
-
-
+            fish.Update();
             for (int i = 0; i < GameObjectList.Count; i++)
             {
                 GameObjectList[i].Update();
             }
-
             _time.Update();
         }
 

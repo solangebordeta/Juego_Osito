@@ -22,7 +22,6 @@ namespace MyGame
         }
         public override void Update()
         {
-            base.Update();
             obstacleMovement.MoveObstacle(); //Esto por si quiero darle el mismo tipo de movimiento que los obstaculos.
         }
     }
