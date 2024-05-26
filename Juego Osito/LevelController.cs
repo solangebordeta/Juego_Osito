@@ -9,7 +9,7 @@ namespace MyGame
     public class LevelController
     {
         private static IntPtr image = Engine.LoadImage("assets/background.png");
-        public static List<GameObject> GameObjectList = new List<GameObject>();
+        static public List<GameObject> GameObjectList = new List<GameObject>();
         private static Time _time;
 
         private Character player = new Character(new Vector2(480, 400));
@@ -22,7 +22,6 @@ namespace MyGame
             CreateEnemies();
             _time.Initialize();
             GameObjectList.Add(fish);
-            GameObjectList.Add(player);
         }
 
         public void Render()

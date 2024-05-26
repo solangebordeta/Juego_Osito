@@ -11,8 +11,6 @@ namespace MyGame
         private static IntPtr image = Engine.LoadImage("assets/pez.png");
         private ObstacleMovement obstacleMovement; //Aqui era originalmente ObstacleMovement pero para adpatarlo a Fish a lo mejor deberia 
         //crear un FishMovement que haga lo mismo
-        private int scoreValue = 5;
-        public event Action<int> FishPickedUp;
 
         public Fish(Vector2 position) : base(position)
         {
@@ -29,7 +27,7 @@ namespace MyGame
         public void PickUp()
         {
             Engine.Debug("Se aumento el score");
-            FishPickedUp?.Invoke(scoreValue);
+
         }
     }
 }
