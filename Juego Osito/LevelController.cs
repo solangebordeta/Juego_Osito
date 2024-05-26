@@ -20,6 +20,7 @@ namespace MyGame
             Console.WriteLine("HOLA MUNDO");
             CreateEnemies();
             _time.Initialize();
+            GameObjectList.Add(fish);
         }
 
         public void Render()
@@ -35,15 +36,12 @@ namespace MyGame
 
             player.Render();
 
-            fish.Render();
-
             Engine.Show();
         }
 
         public void Update()
         {
             player.Update();
-            fish.Update();
             for (int i = 0; i < GameObjectList.Count; i++)
             {
                 GameObjectList[i].Update();

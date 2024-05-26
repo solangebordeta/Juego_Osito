@@ -94,7 +94,7 @@ namespace MyGame
                     if (gameObject is Fish) // Verifica si el objeto es un pez
                     {
                         Console.WriteLine("¡Capturaste un pez!");
-                        LevelController.GameObjectList.Remove(gameObject); //ESTO SE TENDRIA QUE MODIFICAR CUANDO SE HAGA EL FACTORY. 
+                        LevelController.GameObjectList.RemoveAt(i); //ESTO SE TENDRIA QUE MODIFICAR CUANDO SE HAGA EL FACTORY. 
                     }
 
                     else
