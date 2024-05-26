@@ -19,8 +19,11 @@ namespace MyGame
         private IntPtr defeatScreen = Engine.LoadImage("assets/pantalladerrota.png");
 
         private LevelController levelController = new LevelController();
+        //public LevelController LevelController => levelController;
 
-        public LevelController LevelController => levelController;
+        private ScoreManager scoreManager;
+        //public ScoreManager ScoreManager => scoreManager;
+
         public static GameManager Instance
 
         {
@@ -34,10 +37,22 @@ namespace MyGame
             }
         }
 
+        private GameManager()
+        {
+            scoreManager = new ScoreManager();
+        }
+
         public void Initialize()
         {
             levelController = new LevelController();
             levelController.Initialize();
+            foreach (var gameObject in LevelController.GameObjectList)
+            {
+                if (gameObject is Fish fish)
+                {
+                    fish.FishPickedUp += scoreManager.OnFishPickedUp;
+                }
+            }
         }
 
         public void Update()
@@ -100,6 +115,8 @@ namespace MyGame
                 case GameStatus.lose:
                     Engine.Clear();
                     Engine.Draw(defeatScreen, 0, 0);
+                    string scoreText = $"Puntaje: {scoreManager.Score}";
+                    Engine.Debug(scoreText);
                     Engine.Show();
                     break;
                 
