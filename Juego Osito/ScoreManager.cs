@@ -17,9 +17,10 @@ namespace MyGame
             score = 0;
         }
 
-        public void IncreaseScore(int amount)
+        public void OnFishPickedUp(int scoreValue)
         {
-            score += amount;
+            score += scoreValue;
+            Console.WriteLine($"Score incremented by {scoreValue}. New score: {score}");
         }
 
         public void DecreaseScore(int amount)
