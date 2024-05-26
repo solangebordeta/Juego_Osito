@@ -108,6 +108,8 @@ namespace MyGame
                 case GameStatus.lose:
                     Engine.Clear();
                     Engine.Draw(defeatScreen, 0, 0);
+                    string scoreText = $"Puntaje: {scoreManager.Score}";
+                    Engine.Debug(scoreText);
                     Engine.Show();
                     break;
                 
