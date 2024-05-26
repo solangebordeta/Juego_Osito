@@ -91,13 +91,13 @@ namespace MyGame
                 if (distanceX < sumHalfWidth && distanceY < sumHalfHeight)
                 {
 
-                    if (gameObject is Fish) // Verifica si el objeto es un pez
+                    if (gameObject is IPickuppeable pickupobj) // Verifica si el objeto es un pez
                     {
-                        Console.WriteLine("¡Capturaste un pez!");
+                        pickupobj.PickUp();
                         LevelController.GameObjectList.RemoveAt(i); //ESTO SE TENDRIA QUE MODIFICAR CUANDO SE HAGA EL FACTORY. 
                     }
 
-                    else
+                    if (gameObject is Obstacle)
                     {
                         Console.WriteLine("Colisión detectada con un obstaculo!");
                         LevelController.GameObjectList.Remove(gameObject);
