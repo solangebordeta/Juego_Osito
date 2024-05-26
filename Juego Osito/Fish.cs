@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class Fish : GameObject
+    public class Fish : GameObject, IPickuppeable
     {
         private static IntPtr image = Engine.LoadImage("assets/pez.png");
         private ObstacleMovement obstacleMovement; //Aqui era originalmente ObstacleMovement pero para adpatarlo a Fish a lo mejor deberia 
@@ -23,6 +23,11 @@ namespace MyGame
         public override void Update()
         {
             obstacleMovement.MoveObstacle(); //Esto por si quiero darle el mismo tipo de movimiento que los obstaculos.
+        }
+        public void PickUp()
+        {
+            Engine.Debug("Se aumento el score");
+
         }
     }
 }

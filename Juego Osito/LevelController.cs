@@ -12,12 +12,13 @@ namespace MyGame
         static public List<GameObject> GameObjectList = new List<GameObject>();
         private static Time _time;
 
-        static Character player = new Character(new Vector2(480, 400));
-        static Fish fish = new Fish(new Vector2(480, 100));
+        private Character player = new Character(new Vector2(480, 400));
+        public Character Player => player;
+        private Fish fish = new Fish(new Vector2(480, 100));
+        public Fish Fish => fish;
 
         public void Initialize()
         {
-            Console.WriteLine("HOLA MUNDO");
             CreateEnemies();
             _time.Initialize();
             GameObjectList.Add(fish);
@@ -29,12 +30,12 @@ namespace MyGame
 
             Engine.Draw(image, 0, 0);
 
+            player.Render();
+
             for (int i = 0; i < GameObjectList.Count; i++)
             {
                 GameObjectList[i].Render();
             }
-
-            player.Render();
 
             Engine.Show();
         }
