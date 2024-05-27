@@ -16,7 +16,7 @@ namespace MyGame
         private Animation walk;
         private Animation lose;   
         private CharacterController controller;
-        
+        bool isLosing;
 
         //transform.Position = new Vector2(200, 200);
 
@@ -37,8 +37,12 @@ namespace MyGame
                 walkingTextures.Add(frame);
             }
             walk = new Animation("Walk", walkingTextures, 0.2f, true);
-            currentAnimation = walk;
+            currentAnimation = walk;    
+        }
 
+       
+        public void DieAnimation()
+        {
             List<IntPtr> losingTextures = new List<IntPtr>();
             for (int i = 0; i < 15; i++)
             {
@@ -46,12 +50,13 @@ namespace MyGame
                 losingTextures.Add(frame);
             }
             lose = new Animation("Lose", losingTextures, 0.2f, true);
-            
+            currentAnimation = lose;
         }
-
+        
+        
         public void ChangeAnimation() //cuando pierdo se cambia la animacion
         {
-            if (currentAnimation != null) 
+            if (currentAnimation != walk) 
             {
                 currentAnimation = lose;
             } 
@@ -79,7 +84,7 @@ namespace MyGame
 
         private void CheckCollisions()
         {
-            for (int i = 0; i < LevelController.GameObjectList.Count; i++) //le voy a preguntar al profe sobre esto
+            for (int i = 0; i < LevelController.GameObjectList.Count; i++) 
             {
                 GameObject gameObject = LevelController.GameObjectList[i];
                 float distanceX = Math.Abs((gameObject.Transform.Position.x + (gameObject.Transform.Scale.x / 2)) - (transform.Position.x + (transform.Scale.x / 2)));
@@ -101,10 +106,24 @@ namespace MyGame
                     {
                         Console.WriteLine("Colisión detectada con un obstaculo!");
                         LevelController.GameObjectList.Remove(gameObject);
+
+                        //isLosing = true;
+
                         ChangeAnimation();
+                        DieAnimation();
+                        if (currentAnimation == lose) 
+                        {
+                            isLosing = true;
+                            
+                            /*if (currentAnimation == lose)
+                            {
+                                GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
+                            }*/
+                            
+                        }
                         //DelayAfterLosing();
-                        GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
-                        currentAnimation = walk; //aca hice q cuando pierdo, y quiero volver a jugar
+                        
+                         //aca hice q cuando pierdo, y quiero volver a jugar
                                                  //mi current animation cambie de perder a caminar
                     }
 
