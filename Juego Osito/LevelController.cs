@@ -63,7 +63,7 @@ namespace MyGame
                 {
                     if ((i + j) % 3 == 0 || (i + j) % 2 == 0)
                     {
-                        GameObjectList.Add(new Obstacle(new Vector2(xOffset + j * cellSize, -100 - i * cellSize)));
+                        GameObjectList.Add(ObstacleFactory.CreateObstacles(new Vector2(xOffset + j * cellSize, -100 - i * cellSize), Obstacles.arbol));
                     }
                 }
             }

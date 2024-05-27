@@ -56,6 +56,7 @@
     <Compile Include="IPickuppeable.cs" />
     <Compile Include="LevelController.cs" />
     <Compile Include="Obstacle.cs" />
+    <Compile Include="ObstacleFactory.cs" />
     <Compile Include="ObstacleMovement.cs" />
     <Compile Include="Font.cs" />
     <Compile Include="Engine.cs" />

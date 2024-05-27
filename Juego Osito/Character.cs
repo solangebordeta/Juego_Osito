@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Net.Security;
 using System.Text;
@@ -17,18 +18,23 @@ namespace MyGame
         private Animation lose;   
         private CharacterController controller;
         bool isLosing;
-
+        private Vector2 originalPosition;
         //transform.Position = new Vector2(200, 200);
 
+        public delegate void Evento();
+        public event Evento OnDie;
 
         public Character(Vector2 position) : base(position)
         {
+            originalPosition = position;
             controller = new CharacterController(transform);
             CreateAnimations();
+            isLosing = false;
+            //OnDie += ResetPosition;
         }
 
   
-        private void CreateAnimations()
+        private void CreateAnimations() 
         {
             List<IntPtr> walkingTextures = new List<IntPtr>();
             for (int i = 0; i < 2; i++)
@@ -51,14 +57,16 @@ namespace MyGame
             }
             lose = new Animation("Lose", losingTextures, 0.2f, true);
             currentAnimation = lose;
+            
         }
-        
-        
-        public void ChangeAnimation() //cuando pierdo se cambia la animacion
+
+
+        public void ChangeAnimation() //cambio la animacion de camniar a perder
         {
             if (currentAnimation != walk) 
             {
-                currentAnimation = lose;
+                DieAnimation();
+                //currentAnimation = lose;
             } 
         }
 
@@ -80,6 +88,11 @@ namespace MyGame
                 currentTime += delay;  
             }
          
+        }*/
+
+        /*public void ResetPosition()
+        {
+           transform.SetPosition(originalPosition);
         }*/
 
         private void CheckCollisions()
@@ -107,24 +120,24 @@ namespace MyGame
                         Console.WriteLine("Colisión detectada con un obstaculo!");
                         LevelController.GameObjectList.Remove(gameObject);
 
-                        //isLosing = true;
+                        //OnDie();
 
-                        ChangeAnimation();
-                        DieAnimation();
-                        if (currentAnimation == lose) 
-                        {
-                            isLosing = true;
-                            
-                            /*if (currentAnimation == lose)
-                            {
-                                GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
-                            }*/
-                            
-                        }
-                        //DelayAfterLosing();
                         
-                         //aca hice q cuando pierdo, y quiero volver a jugar
-                                                 //mi current animation cambie de perder a caminar
+                        
+                       isLosing = true;
+                        
+                        
+                        if (isLosing == true) 
+                        {
+                            //DieAnimation();
+                            GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
+                
+                        }
+                        //currentAnimation = walk;
+                        //DelayAfterLosing();
+
+                        //aca hice q cuando pierdo, y quiero volver a jugar
+                        //mi current animation cambie de perder a caminar
                     }
 
                 }
