@@ -23,7 +23,7 @@ namespace MyGame
         //transform.Position = new Vector2(200, 200);
 
         public delegate void Evento();
-        public event Evento OnDie;
+        public event Evento OnDie = null;
 
         public Character(Vector2 position) : base(position)
         {
@@ -31,7 +31,7 @@ namespace MyGame
             controller = new CharacterController(transform);
             CreateAnimations();
 
-            //OnDie += ResetPosition;
+            OnDie += ResetPosition;
 
         }
 
@@ -71,12 +71,10 @@ namespace MyGame
         }*/
 
 
-
-  
-        /*public void ResetPosition()
+        public void ResetPosition()
         {
            transform.SetPosition(originalPosition);
-        }*/
+        }
 
         private void CheckCollisions()
         {
@@ -103,17 +101,15 @@ namespace MyGame
                         Console.WriteLine("Colisión detectada con un obstaculo!");
                         LevelController.GameObjectList.Remove(gameObject);
 
-                        //OnDie();
+                        OnDie();
 
                         DieAnimation();
-                       
+
+
                         GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
 
-                        currentAnimation = walk;
-                        
-
-                        //aca hice q cuando pierdo, y quiero volver a jugar
-                        //mi current animation cambie de perder a caminar
+                        currentAnimation = walk; //aca hice q cuando pierdo, y quiero volver a jugar
+                                                 //mi current animation cambie de perder a caminar
                     }
 
                 }
@@ -127,8 +123,6 @@ namespace MyGame
             base.Update();
             controller.GetInputs();
             CheckCollisions();
-
-            
 
         }
 

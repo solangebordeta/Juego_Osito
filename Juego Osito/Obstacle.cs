@@ -11,13 +11,15 @@ namespace MyGame
         
         private Animation idle;
         private ObstacleMovement obstacleMovement;
+
         public Vector2 originalPosition;
+
         public Obstacle(Vector2 position) : base(position)
         {
             originalPosition = position;
             obstacleMovement = new ObstacleMovement(transform);
             CreateAnimations();
-            //GameManager.Instance.LevelController.Player.OnDie += ResetPosition;
+            GameManager.Instance.LevelController.Player.OnDie += ResetPosition;
         }
 
         // PROBABLEMENTE LE AGREGUEMOS ANIMACION DE CAERSE NI BIEN COLISIONA AL ARBOL MAS ADELANTE
@@ -45,9 +47,9 @@ namespace MyGame
             obstacleMovement.MoveObstacle();
         }
 
-        /*public void ResetPosition()
+        public void ResetPosition()
         {
             transform.SetPosition(originalPosition);
-        }*/
+        }
     }
 }

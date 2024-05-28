@@ -12,6 +12,8 @@ namespace MyGame
         private Vector2 scale;
         public Vector2 Scale => scale;
         public Vector2 Position => position;
+
+       
         public Transform(Vector2 position, Vector2 scale)
         {
             this.position = position;
@@ -22,6 +24,12 @@ namespace MyGame
         {
             position.x += direccion.x * speed;
             position.y += direccion.y * speed;
+        }
+
+        public void SetPosition(Vector2 newPosition)
+        {
+            position.x = newPosition.x;
+            position.y = newPosition.y;
         }
     }
 }

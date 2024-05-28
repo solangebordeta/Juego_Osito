@@ -19,7 +19,7 @@ namespace MyGame
         private IntPtr defeatScreen = Engine.LoadImage("assets/pantalladerrota.png");
 
         private LevelController levelController = new LevelController();
-        //public LevelController LevelController => levelController;
+        public LevelController LevelController => levelController;
 
         private ScoreManager scoreManager;
         //public ScoreManager ScoreManager => scoreManager;

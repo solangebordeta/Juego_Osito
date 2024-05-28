@@ -14,6 +14,9 @@ namespace MyGame
 
         private Character player = new Character(new Vector2(480, 400));
         public Character Player => player;
+
+        public Obstacle Obstacle => Obstacle;
+
         private Fish fish = new Fish(new Vector2(480, 100));
         public Fish Fish => fish;
 
