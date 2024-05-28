@@ -105,7 +105,6 @@ namespace MyGame
 
                         DieAnimation();
 
-
                         GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
 
                         currentAnimation = walk; //aca hice q cuando pierdo, y quiero volver a jugar

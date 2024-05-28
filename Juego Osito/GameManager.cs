@@ -10,13 +10,14 @@ namespace MyGame
     {
         public enum GameStatus
         {
-            menu, game, lose
+            menu, game, pause, lose
         }
 
         private static GameManager instance;
         private GameStatus gameStart = GameStatus.menu;  
         private IntPtr menuScreen = Engine.LoadImage("assets/menu.png");
         private IntPtr defeatScreen = Engine.LoadImage("assets/pantalladerrota.png");
+        private IntPtr pauseScreen = Engine.LoadImage("assets/pausa.png");
 
         private LevelController levelController = new LevelController();
         public LevelController LevelController => levelController;
@@ -71,6 +72,19 @@ namespace MyGame
                 case GameStatus.game:
 
                     levelController.Update();
+
+                    if (Engine.KeyPress(Engine.KEY_ESC))
+                    {
+                        gameStart = GameStatus.pause;
+                    }
+                    break;
+
+                case GameStatus.pause:
+
+                    if (Engine.KeyPress(Engine.KEY_ESC))
+                    {
+                        gameStart = GameStatus.game;
+                    }
                     break;
 
                 case GameStatus.lose:
@@ -103,6 +117,12 @@ namespace MyGame
 
                 case GameStatus.game:
                     levelController.Render();
+                    break;
+
+                case GameStatus.pause:
+                    Engine.Clear();
+                    Engine.Draw(pauseScreen, 0, 0);
+                    Engine.Show();
                     break;
 
                 case GameStatus.lose:
