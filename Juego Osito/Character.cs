@@ -4,9 +4,11 @@ using System.Data;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Net.Security;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Timers;
 using Tao.Sdl;
 
 namespace MyGame
@@ -17,7 +19,6 @@ namespace MyGame
         private Animation walk;
         private Animation lose;   
         private CharacterController controller;
-        bool isLosing;
         private Vector2 originalPosition;
         //transform.Position = new Vector2(200, 200);
 
@@ -29,11 +30,12 @@ namespace MyGame
             originalPosition = position;
             controller = new CharacterController(transform);
             CreateAnimations();
-            isLosing = false;
+
             //OnDie += ResetPosition;
+
         }
 
-  
+
         private void CreateAnimations() 
         {
             List<IntPtr> walkingTextures = new List<IntPtr>();
@@ -57,39 +59,20 @@ namespace MyGame
             }
             lose = new Animation("Lose", losingTextures, 0.2f, true);
             currentAnimation = lose;
-            
         }
 
-
-        public void ChangeAnimation() //cambio la animacion de camniar a perder
+      
+       /* public void ChangeAnimation() //cambio la animacion de camniar a perder
         {
             if (currentAnimation != walk) 
             {
-                DieAnimation();
-                //currentAnimation = lose;
+                currentAnimation = lose;  
             } 
-        }
-
-
-
-        //quiero hacer un delay para que cuando pierda, 
-        //no aparezca al toque la pantalla de derrota
-        //asi se aprecia la animacion
-
-        /*public void DelayAfterLosing() 
-        {
-            int currentTime = 0;
-            int delay = 3;
-
-            if (currentAnimation  == lose)
-            {
-                CheckCollisions();
-                ChangeAnimation();
-                currentTime += delay;  
-            }
-         
         }*/
 
+
+
+  
         /*public void ResetPosition()
         {
            transform.SetPosition(originalPosition);
@@ -122,19 +105,12 @@ namespace MyGame
 
                         //OnDie();
 
+                        DieAnimation();
+                       
+                        GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
+
+                        currentAnimation = walk;
                         
-                        
-                       isLosing = true;
-                        
-                        
-                        if (isLosing == true) 
-                        {
-                            //DieAnimation();
-                            GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
-                
-                        }
-                        //currentAnimation = walk;
-                        //DelayAfterLosing();
 
                         //aca hice q cuando pierdo, y quiero volver a jugar
                         //mi current animation cambie de perder a caminar
@@ -151,6 +127,8 @@ namespace MyGame
             base.Update();
             controller.GetInputs();
             CheckCollisions();
+
+            
 
         }
 
