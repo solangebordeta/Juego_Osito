@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    internal class ObstacleMovement
+    internal class VerticalMovement
     {
         private Transform transform;
         private int speed = 4;
         private Vector2 direccion = new Vector2(0, 1);
-        public ObstacleMovement (Transform transform)
+        public VerticalMovement (Transform transform)
         {
             this.transform = transform;
         }

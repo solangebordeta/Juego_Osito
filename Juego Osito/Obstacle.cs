@@ -10,14 +10,14 @@ namespace MyGame
     {
         
         private Animation idle;
-        private ObstacleMovement obstacleMovement;
+        private VerticalMovement verticalMovement;
 
         public Vector2 originalPosition;
 
         public Obstacle(Vector2 position) : base(position)
         {
             originalPosition = position;
-            obstacleMovement = new ObstacleMovement(transform);
+            verticalMovement = new VerticalMovement(transform);
             CreateAnimations();
             GameManager.Instance.LevelController.Player.OnDie += ResetPosition;
         }
@@ -44,7 +44,7 @@ namespace MyGame
         public override void Update()
         {
             base.Update();
-            obstacleMovement.MoveObstacle();
+            verticalMovement.MoveObstacle();
         }
 
         public void ResetPosition()
