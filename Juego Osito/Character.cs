@@ -30,9 +30,7 @@ namespace MyGame
             originalPosition = position;
             controller = new CharacterController(transform);
             CreateAnimations();
-
             OnDie += ResetPosition;
-
         }
 
 
@@ -59,16 +57,22 @@ namespace MyGame
             }
             lose = new Animation("Lose", losingTextures, 0.2f, true);
             currentAnimation = lose;
+
+            if (currentAnimation == lose)
+            {
+                GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
+            }
+            
         }
 
       
-       /* public void ChangeAnimation() //cambio la animacion de camniar a perder
+        public void ChangeAnimation() //cambio la animacion de perder a caminar
         {
-            if (currentAnimation != walk) 
+            if (currentAnimation == lose) 
             {
-                currentAnimation = lose;  
+                currentAnimation = walk;  
             } 
-        }*/
+        }
 
 
         public void ResetPosition()
@@ -105,9 +109,9 @@ namespace MyGame
 
                         DieAnimation();
 
-                        GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
+                        ChangeAnimation();
 
-                        currentAnimation = walk; //aca hice q cuando pierdo, y quiero volver a jugar
+                        //currentAnimation = walk; //aca hice q cuando pierdo, y quiero volver a jugar
                                                  //mi current animation cambie de perder a caminar
                     }
 
