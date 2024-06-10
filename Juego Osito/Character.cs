@@ -50,7 +50,7 @@ namespace MyGame
         public void DieAnimation()
         {
             List<IntPtr> losingTextures = new List<IntPtr>();
-            for (int i = 0; i < 15; i++)
+            for (int i = 0; i < 12; i++)
             {
                 IntPtr frame = Engine.LoadImage($"assets/osito/lose/{i}.png");
                 losingTextures.Add(frame);
@@ -58,15 +58,16 @@ namespace MyGame
             lose = new Animation("Lose", losingTextures, 0.2f, true);
             currentAnimation = lose;
 
-            if (currentAnimation == lose)
-            {
-                GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
-            }
-            
+                if (losingTextures.Count >= 12)
+                {
+                    currentAnimation = lose;
+                    GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
+                }
+
         }
 
       
-        public void ChangeAnimation() //cambio la animacion de perder a caminar
+        public void ChangeAnimation() //cambio la animacion de perder a caminar cuando vuelve a jugar
         {
             if (currentAnimation == lose) 
             {
@@ -108,8 +109,8 @@ namespace MyGame
                         OnDie();
 
                         DieAnimation();
-
-                        ChangeAnimation();
+                        
+                        //ChangeAnimation();
 
                         //currentAnimation = walk; //aca hice q cuando pierdo, y quiero volver a jugar
                                                  //mi current animation cambie de perder a caminar

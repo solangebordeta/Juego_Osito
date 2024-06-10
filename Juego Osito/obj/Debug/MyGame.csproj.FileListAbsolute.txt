@@ -238,9 +238,6 @@ C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\osito\l
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\1.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\10.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\11.png
-C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\12.png
-C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\13.png
-C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\14.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\2.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\3.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\4.png
