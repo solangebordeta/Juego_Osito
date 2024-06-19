@@ -11,7 +11,6 @@ namespace MyGame
         private static IntPtr image = Engine.LoadImage("assets/background.png");
         public static List<GameObject> GameObjectList = new List<GameObject>();
         private static Time _time;
-        private ScoreManager scoreManager = new ScoreManager();
 
         private Character player = new Character(new Vector2(480, 400));
         public Character Player => player;
@@ -21,20 +20,12 @@ namespace MyGame
         private Fish fish = new Fish(new Vector2(480, 100));
         public Fish Fish => fish;
 
-        public IntPtr fontScore = Engine.LoadFont("assets/Fonts/ARCADE.TTF", 100);
-
         public void Initialize()
         {
             CreateEnemies();
             _time.Initialize();
             GameObjectList.Add(fish);
             GameObjectList.Add(player);
-            fish.FishPickedUp += OnFishPickedUp;
-        }
-
-        private void OnFishPickedUp(int scoreValue)
-        {
-            scoreManager.OnFishPickedUp(scoreValue);
         }
 
         public void Render()
@@ -49,8 +40,6 @@ namespace MyGame
             {
                 GameObjectList[i].Render();
             }
-
-            Engine.DrawText($"Score: {scoreManager.Score}", 10, 10, 200, 0, 0, fontScore);
 
             Engine.Show();
         }
