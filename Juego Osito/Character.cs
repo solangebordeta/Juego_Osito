@@ -58,7 +58,7 @@ namespace MyGame
             lose = new Animation("Lose", losingTextures, 0.2f, true);
             currentAnimation = lose;
 
-                if (losingTextures.Count >= 12)
+                if (currentAnimation.CurrentFrameIndex >= 11)
                 {
                     currentAnimation = lose;
                     GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
@@ -109,11 +109,11 @@ namespace MyGame
                         OnDie();
 
                         DieAnimation();
-                        
+
                         //ChangeAnimation();
 
                         //currentAnimation = walk; //aca hice q cuando pierdo, y quiero volver a jugar
-                                                 //mi current animation cambie de perder a caminar
+                        //mi current animation cambie de perder a caminar
                     }
 
                 }
