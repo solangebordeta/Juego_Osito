@@ -270,9 +270,6 @@ F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lo
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\1.png
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\10.png
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\11.png
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\12.png
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\13.png
-F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\14.png
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\2.png
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\3.png
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\osito\lose\4.png
@@ -289,3 +286,4 @@ F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\tierra.p
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\pausa.png
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\pausa.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Font\ARCADE.TTF
+F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Font\ARCADE.TTF

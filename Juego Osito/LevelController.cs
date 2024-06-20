@@ -18,21 +18,21 @@ namespace MyGame
 
         public Obstacle Obstacle => Obstacle;
 
-        private Fish fish = new Fish(new Vector2(480, 100));
+        private Fish fish;
         public Fish Fish => fish;
 
         public IntPtr fontScore = Engine.LoadFont("assets/Font/ARCADE.TTF", 100);
 
         public void Initialize()
         {
+            fish = new Fish(new Vector2(480, 100));
             CreateEnemies();
             _time.Initialize();
             GameObjectList.Add(fish);
             GameObjectList.Add(player);
-            fish.FishPickedUp += OnFishPickedUp;
         }
 
-        private void OnFishPickedUp(int scoreValue)
+        public void OnFishPickedUp(int scoreValue)
         {
             scoreManager.OnFishPickedUp(scoreValue);
         }

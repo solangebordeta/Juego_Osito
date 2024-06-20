@@ -23,8 +23,7 @@ namespace MyGame
         public LevelController LevelController => levelController;
 
         private ScoreManager scoreManager;
-        //public ScoreManager ScoreManager => scoreManager;
-
+    
         public static GameManager Instance
 
         {
@@ -47,13 +46,6 @@ namespace MyGame
         {
             levelController = new LevelController();
             levelController.Initialize();
-            foreach (var gameObject in LevelController.GameObjectList)
-            {
-                if (gameObject is Fish fish)
-                {
-                    fish.FishPickedUp += scoreManager.OnFishPickedUp;
-                }
-            }
         }
 
         public void Update()

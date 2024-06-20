@@ -9,14 +9,14 @@ namespace MyGame
     public class Fish : GameObject, IPickuppeable
     {
         private static IntPtr image = Engine.LoadImage("assets/pez.png");
-        private VerticalMovement verticalMovement; //Aqui era originalmente VerticalMovement pero para adpatarlo a Fish a lo mejor deberia 
-        //crear un FishMovement que haga lo mismo
+        private VerticalMovement verticalMovement;
         private int scoreValue = 5;
         public event Action<int> FishPickedUp;
 
         public Fish(Vector2 position) : base(position)
         {
             verticalMovement = new VerticalMovement(transform);//Para mover el pez
+            FishPickedUp += GameManager.Instance.LevelController.OnFishPickedUp;
         }
         public override void Render()
         {
