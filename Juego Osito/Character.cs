@@ -18,7 +18,7 @@ namespace MyGame
         
         private Animation walk;
         private Animation lose;   
-        private CharacterController controller;
+        private ICharacterController controller;
         private Vector2 originalPosition;
         //transform.Position = new Vector2(200, 200);
 

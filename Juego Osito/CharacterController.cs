@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class CharacterController
+    public class CharacterController : ICharacterController
     {
         private int speed = 5;
         private Transform transform;

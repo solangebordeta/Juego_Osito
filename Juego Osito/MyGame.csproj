@@ -53,6 +53,7 @@
     <Compile Include="Fish.cs" />
     <Compile Include="GameManager.cs" />
     <Compile Include="GameObject.cs" />
+    <Compile Include="ICharacterController.cs" />
     <Compile Include="IPickuppeable.cs" />
     <Compile Include="LevelController.cs" />
     <Compile Include="Obstacle.cs" />
