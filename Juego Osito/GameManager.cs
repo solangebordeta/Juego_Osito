@@ -73,7 +73,7 @@ namespace MyGame
 
                 case GameStatus.pause:
 
-                    if (Engine.KeyPress(Engine.KEY_ESC))
+                    if (Engine.KeyPress(Engine.KEY_P))
                     {
                         gameStart = GameStatus.game;
                     }

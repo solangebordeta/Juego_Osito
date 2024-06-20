@@ -108,7 +108,7 @@ namespace MyGame
 
                         OnDie();
 
-                        DieAnimation();
+                        //DieAnimation();
 
                         //ChangeAnimation();
 

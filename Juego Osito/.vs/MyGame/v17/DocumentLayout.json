@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|f:\\paradigmas de programaci\u00F3n\\juego_osito\\juego osito\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|f:\\paradigmas de programaci\u00F3n\\juego_osito\\juego osito\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|f:\\paradigmas de programaci\u00F3n\\juego_osito\\juego osito\\icharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:icharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|f:\\paradigmas de programaci\u00F3n\\juego_osito\\juego osito\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|f:\\paradigmas de programaci\u00F3n\\juego_osito\\juego osito\\fish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\fish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:fish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,42 +46,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LevelController.cs",
+              "DocumentMoniker": "F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\LevelController.cs",
+              "RelativeDocumentMoniker": "LevelController.cs",
+              "ToolTip": "F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\LevelController.cs",
+              "RelativeToolTip": "LevelController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:16:13.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\GameManager.cs",
+              "RelativeDocumentMoniker": "GameManager.cs",
+              "ToolTip": "F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\GameManager.cs",
+              "RelativeToolTip": "GameManager.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAcwEsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:15:08.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Character.cs",
               "DocumentMoniker": "F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\Character.cs",
               "RelativeDocumentMoniker": "Character.cs",
               "ToolTip": "F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\Character.cs",
               "RelativeToolTip": "Character.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAApAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwBUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T19:49:41.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T19:49:41.942Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ICharacterController.cs",
-              "DocumentMoniker": "F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\ICharacterController.cs",
-              "RelativeDocumentMoniker": "ICharacterController.cs",
-              "ToolTip": "F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\ICharacterController.cs",
-              "RelativeToolTip": "ICharacterController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T19:47:31.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "CharacterController.cs",
               "DocumentMoniker": "F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\CharacterController.cs",
               "RelativeDocumentMoniker": "CharacterController.cs",
               "ToolTip": "F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\CharacterController.cs",
               "RelativeToolTip": "CharacterController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBAAAAAJAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwA0AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T19:46:33.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T19:46:33.362Z"
             },
             {
               "$type": "Document",
@@ -87,10 +101,9 @@
               "RelativeDocumentMoniker": "Fish.cs",
               "ToolTip": "F:\\Paradigmas de Programaci\u00F3n\\Juego_Osito\\Juego Osito\\Fish.cs",
               "RelativeToolTip": "Fish.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABBAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T20:59:17.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T20:59:17.598Z"
             }
           ]
         }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static MyGame.Character;
 
 namespace MyGame
 {
@@ -12,7 +13,6 @@ namespace MyGame
         private VerticalMovement verticalMovement;
         private int scoreValue = 5;
         public event Action<int> FishPickedUp;
-
         public Fish(Vector2 position) : base(position)
         {
             verticalMovement = new VerticalMovement(transform);//Para mover el pez
