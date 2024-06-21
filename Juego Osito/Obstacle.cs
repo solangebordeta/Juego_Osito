@@ -11,9 +11,7 @@ namespace MyGame
         
         private Animation idle;
         private VerticalMovement verticalMovement;
-
         public Vector2 originalPosition;
-
         public Obstacle(Vector2 position) : base(position)
         {
             originalPosition = position;
@@ -22,8 +20,15 @@ namespace MyGame
             GameManager.Instance.LevelController.Player.OnDie += ResetPosition;
         }
 
-        // PROBABLEMENTE LE AGREGUEMOS ANIMACION DE CAERSE NI BIEN COLISIONA AL ARBOL MAS ADELANTE
-        
+        public void ResetPosition()
+        {
+            transform.SetPosition(originalPosition);
+        }
+
+        public void Reposition(Vector2 newPosition)
+        {
+            transform.SetPosition(newPosition);
+        }
         private void CreateAnimations()
         {
             List<IntPtr> idleTextures = new List<IntPtr>();
@@ -45,11 +50,6 @@ namespace MyGame
         {
             base.Update();
             verticalMovement.MoveObstacle();
-        }
-
-        public void ResetPosition()
-        {
-            transform.SetPosition(originalPosition);
         }
     }
 }

@@ -12,21 +12,16 @@ namespace MyGame
         public static List<GameObject> GameObjectList = new List<GameObject>();
         private static Time _time;
         private ScoreManager scoreManager = new ScoreManager();
-
         private Character player = new Character(new Vector2(480, 400));
         public Character Player => player;
-
-        public Obstacle Obstacle => Obstacle;
-
         private Fish fish;
-        public Fish Fish => fish;
-
         public IntPtr fontScore = Engine.LoadFont("assets/Font/ARCADE.TTF", 100);
-
+        private List<Obstacle> obstacles = new List<Obstacle>();
+        private const int maxObstacles = 15;
         public void Initialize()
         {
             fish = new Fish(new Vector2(480, 100));
-            CreateEnemies();
+            CreateInitialObstacles();
             _time.Initialize();
             GameObjectList.Add(fish);
             GameObjectList.Add(player);
@@ -63,26 +58,37 @@ namespace MyGame
                 GameObjectList[i].Update();
             }
             _time.Update();
+            CheckObstacles();
         }
 
-        private void CreateEnemies()
+        private void CreateInitialObstacles()
         {
-            int cellSize = 250;
-
-            int xOffset = 200;
-
-            for (int i = 0; i < 25; i++)
+            for (int i = 0; i < maxObstacles; i++)
             {
-                for (int j = 0; j < 3; j++)
-                {
-                    if ((i + j) % 3 == 0 || (i + j) % 2 == 0)
-                    {
-                        GameObjectList.Add(ObstacleFactory.CreateObstacles(new Vector2(xOffset + j * cellSize, -100 - i * cellSize), Obstacles.arbol));
-                    }
-                }
+                Vector2 position = GetRandomOffscreenPosition();
+                Obstacle obstacle = ObstacleFactory.CreateObstacles(position, Obstacles.arbol);
+                obstacles.Add(obstacle);
+                GameObjectList.Add(obstacle);
             }
         }
 
+        private Vector2 GetRandomOffscreenPosition()
+        {
+            Random rand = new Random();
+            int xOffset = rand.Next(200, 800);
+            int yOffset = rand.Next(-600, -100);
+            return new Vector2(xOffset, yOffset);
+        }
 
+        private void CheckObstacles()
+        {
+            foreach (var obstacle in obstacles)
+            {
+                if (obstacle.Transform.Position.y > 900)
+                {
+                    obstacle.Reposition(GetRandomOffscreenPosition());
+                }
+            }
+        }
     }
 }

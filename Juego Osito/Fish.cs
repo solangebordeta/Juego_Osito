@@ -13,10 +13,16 @@ namespace MyGame
         private VerticalMovement verticalMovement;
         private int scoreValue = 5;
         public event Action<int> FishPickedUp;
+        public Vector2 originalPosition;
         public Fish(Vector2 position) : base(position)
         {
             verticalMovement = new VerticalMovement(transform);//Para mover el pez
             FishPickedUp += GameManager.Instance.LevelController.OnFishPickedUp;
+            GameManager.Instance.LevelController.Player.OnDie += ResetPosition;
+        }
+        public void ResetPosition()
+        {
+            transform.SetPosition(originalPosition);
         }
         public override void Render()
         {
