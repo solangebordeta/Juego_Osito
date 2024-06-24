@@ -61,7 +61,7 @@ namespace MyGame
                 if (currentAnimation.CurrentFrameIndex >= 11)
                 {
                     currentAnimation = lose;
-                    GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
+                    
                 }
 
         }
@@ -109,6 +109,8 @@ namespace MyGame
                         OnDie();
 
                         //DieAnimation();
+
+                        GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
 
                         //ChangeAnimation();
 
