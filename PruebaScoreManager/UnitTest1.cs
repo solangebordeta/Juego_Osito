@@ -12,13 +12,15 @@ namespace PruebaScoreManager
         {
             /*int score = 0;
 
-            int amount = 0;
-
             var scoreManager = new ScoreManager();
 
-            ScoreManager.DecreaseScore(score, amount);
+            var realPosition = scoreManager.ResetScore();
 
-            Assert.AreEqual(score, amount);*/
+            var expectedPosition = "score = 0";
+
+            ScoreManager.ResetScore(score);
+
+            Assert.AreEqual(realPosition, expectedPosition);*/
         }
     }
 }
