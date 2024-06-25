@@ -15,7 +15,7 @@ namespace MyGame
         private Character player = new Character(new Vector2(480, 400));
         public Character Player => player;
         private Fish fish;
-        public IntPtr fontScore = Engine.LoadFont("assets/Font/ARCADE.TTF", 100);
+        public IntPtr fontScore = Engine.LoadFont("assets/Font/ARCADE.TTF", 75);
         private List<Obstacle> obstacles = new List<Obstacle>();
         private const int maxObstacles = 15;
         public void Initialize()

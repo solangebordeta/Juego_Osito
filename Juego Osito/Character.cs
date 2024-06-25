@@ -20,7 +20,6 @@ namespace MyGame
         private Animation lose;   
         private ICharacterController controller;
         private Vector2 originalPosition;
-        //transform.Position = new Vector2(200, 200);
 
         public delegate void Evento();
         public event Evento OnDie = null;
@@ -58,18 +57,18 @@ namespace MyGame
             lose = new Animation("Lose", losingTextures, 0.2f, true);
             currentAnimation = lose;
 
-                if (currentAnimation.CurrentFrameIndex >= 11)
-                {
-                    currentAnimation = lose;
-                    
-                }
+
+            if (currentAnimation.CurrentFrameIndex >= 11)
+            {
+                currentAnimation = lose;    
+            }
 
         }
 
       
         public void ChangeAnimation() //cambio la animacion de perder a caminar cuando vuelve a jugar
         {
-            if (currentAnimation == lose) 
+            if (currentAnimation != lose) 
             {
                 currentAnimation = walk;  
             } 
@@ -106,16 +105,13 @@ namespace MyGame
                         Console.WriteLine("Colisión detectada con un obstaculo!");
                         LevelController.GameObjectList.Remove(gameObject);
 
-                        OnDie();
-
-                        //DieAnimation();
+                        //DieAnimation(); 
 
                         GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
 
-                        //ChangeAnimation();
+                        OnDie();
 
-                        //currentAnimation = walk; //aca hice q cuando pierdo, y quiero volver a jugar
-                        //mi current animation cambie de perder a caminar
+                        ChangeAnimation();
                     }
 
                 }
@@ -129,7 +125,6 @@ namespace MyGame
             base.Update();
             controller.GetInputs();
             CheckCollisions();
-
         }
 
 
