@@ -2,25 +2,23 @@
 using MyGame;
 using System;
 
-namespace PruebaScoreManager
+namespace PruebaBearGame
 {
     [TestClass]
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ScoreManagerToResetScore()
         {
-            //int score = 0;
-
             var scoreManager = new ScoreManager();
-
-            //var realPosition = scoreManager.ResetScore();
-
-            var expectedPosition = $"score = 0";
 
             scoreManager.ResetScore();
 
-            //Assert.AreEqual(realPosition, expectedPosition);
+            var realResult = scoreManager.Score;
+
+            var expectedResult = 0;
+
+            Assert.AreEqual(realResult, expectedResult);
         }
     }
 }
