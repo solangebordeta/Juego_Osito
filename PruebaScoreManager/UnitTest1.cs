@@ -10,17 +10,17 @@ namespace PruebaScoreManager
         [TestMethod]
         public void TestMethod1()
         {
-            /*int score = 0;
+            //int score = 0;
 
             var scoreManager = new ScoreManager();
 
-            var realPosition = scoreManager.ResetScore();
+            //var realPosition = scoreManager.ResetScore();
 
-            var expectedPosition = "score = 0";
+            var expectedPosition = $"score = 0";
 
-            ScoreManager.ResetScore(score);
+            scoreManager.ResetScore();
 
-            Assert.AreEqual(realPosition, expectedPosition);*/
+            //Assert.AreEqual(realPosition, expectedPosition);
         }
     }
 }
