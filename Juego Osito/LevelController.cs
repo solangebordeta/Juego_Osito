@@ -72,7 +72,7 @@ namespace MyGame
             }
         }
 
-        private Vector2 GetRandomOffscreenPosition()
+        public Vector2 GetRandomOffscreenPosition()
         {
             Random rand = new Random();
             int xOffset = rand.Next(200, 800);
