@@ -8,23 +8,23 @@ namespace PruebaBearGame
     public class UnitTest2
     {
         [TestMethod]
-        public void LevelControllerToGetRandomOffscreenPosition()
+        public void TransformToSetPosition()
         {
-            /*var levelController = new LevelController();
+            var position = new Vector2(50,60);
 
-            Random random = new Random();
+            var scale = new Vector2(20, 210);
 
-            int xOffset = random.Next(200, 800);
+            var transform = new Transform(position, scale);
 
-            int yOffset = random.Next(600, 100);
+            var newPosition = new Vector2(4,90);
 
-            levelController.GetRandomOffscreenPosition();
+            transform.SetPosition(newPosition);
 
-            var realResult = levelController.GetRandomOffscreenPosition();
+            var realResult = transform.Position;
 
-            var expectedResult = new Vector2(xOffset, yOffset);
+            var expectedResult = new Vector2(position.x = newPosition.x, position.y = newPosition.y);
 
-            Assert.AreEqual(realResult, expectedResult);*/
+            Assert.AreEqual(realResult, expectedResult);
         }
     }
 }

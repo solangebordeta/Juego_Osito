@@ -18,7 +18,6 @@ namespace MyGame
 
         public void MoveObstacle()
         {
-
             transform.Translate(direccion,speed);
         }
     }
