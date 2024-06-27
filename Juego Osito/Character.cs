@@ -15,11 +15,12 @@ namespace MyGame
 {
     public class Character : GameObject
     {
-        
+
         private Animation walk;
-        private Animation lose;   
+        private Animation lose;
         private ICharacterController controller;
         private Vector2 originalPosition;
+        private List<GameObject> objectsToRemove = new List<GameObject>();
 
         public delegate void Evento();
         public event Evento OnDie = null;
@@ -33,7 +34,7 @@ namespace MyGame
         }
 
 
-        private void CreateAnimations() 
+        private void CreateAnimations()
         {
             List<IntPtr> walkingTextures = new List<IntPtr>();
             for (int i = 0; i < 2; i++)
@@ -42,10 +43,10 @@ namespace MyGame
                 walkingTextures.Add(frame);
             }
             walk = new Animation("Walk", walkingTextures, 0.2f, true);
-            currentAnimation = walk;    
+            currentAnimation = walk;
         }
 
-       
+
         public void DieAnimation()
         {
             List<IntPtr> losingTextures = new List<IntPtr>();
@@ -60,29 +61,29 @@ namespace MyGame
 
             if (currentAnimation.CurrentFrameIndex >= 11)
             {
-                currentAnimation = lose;    
+                currentAnimation = lose;
             }
 
         }
 
-      
+
         public void ChangeAnimation() //cambio la animacion de perder a caminar cuando vuelve a jugar
         {
-            if (currentAnimation != lose) 
+            if (currentAnimation != lose)
             {
-                currentAnimation = walk;  
-            } 
+                currentAnimation = walk;
+            }
         }
 
 
         public void ResetPosition()
         {
-           transform.SetPosition(originalPosition);
+            transform.SetPosition(originalPosition);
         }
 
         private void CheckCollisions()
         {
-            for (int i = 0; i < LevelController.GameObjectList.Count; i++) 
+            for (int i = 0; i < LevelController.GameObjectList.Count; i++)
             {
                 GameObject gameObject = LevelController.GameObjectList[i];
                 float distanceX = Math.Abs((gameObject.Transform.Position.x + (gameObject.Transform.Scale.x / 2)) - (transform.Position.x + (transform.Scale.x / 2)));
@@ -97,7 +98,7 @@ namespace MyGame
                     if (gameObject is IPickuppeable pickupobj) // Verifica si el objeto es un pez
                     {
                         pickupobj.PickUp();
-                        LevelController.GameObjectList.RemoveAt(i); //ESTO SE TENDRIA QUE MODIFICAR CUANDO SE HAGA EL FACTORY. 
+                        objectsToRemove.Add(gameObject);
                     }
 
                     if (gameObject is Obstacle)
@@ -114,9 +115,15 @@ namespace MyGame
                         ChangeAnimation();
                     }
 
+                    foreach (var obj in objectsToRemove)
+                    {
+                        LevelController.GameObjectList.Remove(obj);
+                    }
+                    objectsToRemove.Clear();
+
                 }
 
-                
+
             }
         }
 

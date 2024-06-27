@@ -9,19 +9,31 @@ namespace MyGame
     public class LevelController
     {
         private static IntPtr image = Engine.LoadImage("assets/background.png");
+
         public static List<GameObject> GameObjectList = new List<GameObject>();
+
         private static Time _time;
         private ScoreManager scoreManager = new ScoreManager();
         private Character player = new Character(new Vector2(480, 400));
+
         public Character Player => player;
-        private Fish fish;
+        private DynamicPoolFish fishPool = new DynamicPoolFish(); // Inicializa la pool de peces
+        public static LevelController Instance { get; private set; } // Singleton para acceder fácilmente
+
         public IntPtr fontScore = Engine.LoadFont("assets/Font/ARCADE.TTF", 75);
         private List<Obstacle> obstacles = new List<Obstacle>();
         private const int maxObstacles = 15;
+
+        public LevelController()
+        {
+            Instance = this; // Inicializa la instancia del singleton
+        }
+
         public void Initialize()
         {
-            fish = new Fish(new Vector2(480, 100));
+            Fish fish = fishPool.CatchFish();
             CreateInitialObstacles();
+            _time = new Time();
             _time.Initialize();
             GameObjectList.Add(fish);
             GameObjectList.Add(player);
@@ -30,14 +42,20 @@ namespace MyGame
         public void OnFishPickedUp(int scoreValue)
         {
             scoreManager.OnFishPickedUp(scoreValue);
+            RespawnFish();
+        }
+
+        public void RespawnFish()
+        {
+            Fish newFish = fishPool.CatchFish();
+            newFish.ResetPositionToRandom(); // Asegura que se resetee a una posición aleatoria
+            GameObjectList.Add(newFish);
         }
 
         public void Render()
         {
             Engine.Clear();
-
             Engine.Draw(image, 0, 0);
-
             player.Render();
 
             for (int i = 0; i < GameObjectList.Count; i++)
@@ -46,7 +64,6 @@ namespace MyGame
             }
 
             Engine.DrawText($"Score: {scoreManager.Score}", 10, 10, 200, 0, 0, fontScore);
-
             Engine.Show();
         }
 
