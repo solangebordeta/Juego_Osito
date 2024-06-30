@@ -187,7 +187,7 @@
     <Content Include="assets\pantalladerrota.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\pausa.png">
+    <Content Include="assets\pause.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="assets\pez.png">

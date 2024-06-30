@@ -17,7 +17,7 @@ namespace MyGame
         private GameStatus gameStart = GameStatus.menu;  
         private IntPtr menuScreen = Engine.LoadImage("assets/menu.png");
         private IntPtr defeatScreen = Engine.LoadImage("assets/pantalladerrota.png");
-        private IntPtr pauseScreen = Engine.LoadImage("assets/pausa.png");
+        private IntPtr pauseScreen = Engine.LoadImage("assets/pause.png");
 
         private LevelController levelController = new LevelController();
         public LevelController LevelController => levelController;

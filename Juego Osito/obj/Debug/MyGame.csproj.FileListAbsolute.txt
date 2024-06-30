@@ -287,3 +287,4 @@ C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\pausa.p
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\pausa.png
 C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\Font\ARCADE.TTF
 F:\Paradigmas de Programación\Juego_Osito\Juego Osito\bin\Debug\assets\Font\ARCADE.TTF
+C:\Users\PC-i5\Documents\GitHub\Juego_Osito\Juego Osito\bin\Debug\assets\pause.png
