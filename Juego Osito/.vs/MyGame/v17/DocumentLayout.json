@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|c:\\users\\pc-i5\\documents\\github\\juego_osito\\juego osito\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|c:\\users\\pc-i5\\documents\\github\\juego_osito\\juego osito\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\fish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:fish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\dynamicpoolfish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:dynamicpoolfish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\dynamicpoolfish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:dynamicpoolfish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|c:\\users\\pc-i5\\documents\\github\\juego_osito\\juego osito\\collisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:collisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|c:\\users\\pc-i5\\documents\\github\\juego_osito\\juego osito\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D58CE914-3113-4542-BED2-3A14C8853660}|..\\PruebaScoreManager\\PruebaBearGame.csproj|c:\\users\\pc-i5\\documents\\github\\juego_osito\\pruebascoremanager\\unittest2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -44,7 +48,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -60,7 +64,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Collisions.cs",
+              "DocumentMoniker": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\Collisions.cs",
+              "RelativeDocumentMoniker": "Collisions.cs",
+              "ToolTip": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\Collisions.cs",
+              "RelativeToolTip": "Collisions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T01:16:11.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\GameManager.cs",
               "RelativeDocumentMoniker": "GameManager.cs",
@@ -73,43 +90,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Fish.cs",
               "DocumentMoniker": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\Fish.cs",
               "RelativeDocumentMoniker": "Fish.cs",
               "ToolTip": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\Fish.cs",
               "RelativeToolTip": "Fish.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAswD4AAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T18:49:04.881Z"
+              "WhenOpened": "2024-06-27T18:49:04.881Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "LevelController.cs",
               "DocumentMoniker": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\LevelController.cs",
               "RelativeDocumentMoniker": "LevelController.cs",
               "ToolTip": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\LevelController.cs",
               "RelativeToolTip": "LevelController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T18:48:29.525Z"
+              "WhenOpened": "2024-06-27T18:48:29.525Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "DynamicPoolFish.cs",
               "DocumentMoniker": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\DynamicPoolFish.cs",
               "RelativeDocumentMoniker": "DynamicPoolFish.cs",
               "ToolTip": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\DynamicPoolFish.cs",
               "RelativeToolTip": "DynamicPoolFish.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T18:46:13.314Z"
+              "WhenOpened": "2024-06-27T18:46:13.314Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "VerticalMovement.cs",
               "DocumentMoniker": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\VerticalMovement.cs",
               "RelativeDocumentMoniker": "VerticalMovement.cs",
@@ -121,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Transform.cs",
               "DocumentMoniker": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\Transform.cs",
               "RelativeDocumentMoniker": "Transform.cs",
@@ -133,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\PruebaScoreManager\\UnitTest1.cs",
               "RelativeDocumentMoniker": "..\\PruebaScoreManager\\UnitTest1.cs",
@@ -145,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UnitTest2.cs",
               "DocumentMoniker": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\PruebaScoreManager\\UnitTest2.cs",
               "RelativeDocumentMoniker": "..\\PruebaScoreManager\\UnitTest2.cs",
@@ -157,13 +177,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\Character.cs",
               "RelativeDocumentMoniker": "Character.cs",
               "ToolTip": "C:\\Users\\PC-i5\\Documents\\GitHub\\Juego_Osito\\Juego Osito\\Character.cs",
               "RelativeToolTip": "Character.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAwAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAwwEkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-25T21:48:51.782Z",
               "EditorCaption": ""

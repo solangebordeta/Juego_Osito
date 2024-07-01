@@ -13,20 +13,27 @@ namespace MyGame
         public static List<GameObject> GameObjectList = new List<GameObject>();
 
         private static Time _time;
-        private ScoreManager scoreManager = new ScoreManager();
+
+        public ScoreManager scoreManager = new ScoreManager();
+
+        public ScoreManager ScoreManager => scoreManager;
+
         private Character player = new Character(new Vector2(480, 400));
 
         public Character Player => player;
-        private DynamicPoolFish fishPool = new DynamicPoolFish(); // Inicializa la pool de peces
-        public static LevelController Instance { get; private set; } // Singleton para acceder fácilmente
+
+        private DynamicPoolFish fishPool = new DynamicPoolFish();
+        public static LevelController Instance { get; private set; }
 
         public IntPtr fontScore = Engine.LoadFont("assets/Font/ARCADE.TTF", 75);
+
         private List<Obstacle> obstacles = new List<Obstacle>();
+
         private const int maxObstacles = 15;
 
         public LevelController()
         {
-            Instance = this; // Inicializa la instancia del singleton
+            Instance = this;
         }
 
         public void Initialize()
@@ -48,7 +55,7 @@ namespace MyGame
         public void RespawnFish()
         {
             Fish newFish = fishPool.CatchFish();
-            newFish.ResetPositionToRandom(); // Asegura que se resetee a una posición aleatoria
+            newFish.ResetPositionToRandom();
             GameObjectList.Add(newFish);
         }
 

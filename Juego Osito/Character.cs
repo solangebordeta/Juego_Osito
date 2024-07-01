@@ -33,7 +33,6 @@ namespace MyGame
             OnDie += ResetPosition;
         }
 
-
         private void CreateAnimations()
         {
             List<IntPtr> walkingTextures = new List<IntPtr>();
@@ -46,7 +45,6 @@ namespace MyGame
             currentAnimation = walk;
         }
 
-
         public void DieAnimation()
         {
             List<IntPtr> losingTextures = new List<IntPtr>();
@@ -57,15 +55,7 @@ namespace MyGame
             }
             lose = new Animation("Lose", losingTextures, 0.2f, true);
             currentAnimation = lose;
-
-
-            if (currentAnimation.CurrentFrameIndex >= 11)
-            {
-                currentAnimation = lose;
-            }
-
         }
-
 
         public void ChangeAnimation() //cambio la animacion de perder a caminar cuando vuelve a jugar
         {
@@ -75,65 +65,21 @@ namespace MyGame
             }
         }
 
-
         public void ResetPosition()
         {
             transform.SetPosition(originalPosition);
         }
 
-        private void CheckCollisions()
+        public void TriggerOnDie()
         {
-            for (int i = 0; i < LevelController.GameObjectList.Count; i++)
-            {
-                GameObject gameObject = LevelController.GameObjectList[i];
-                float distanceX = Math.Abs((gameObject.Transform.Position.x + (gameObject.Transform.Scale.x / 2)) - (transform.Position.x + (transform.Scale.x / 2)));
-                float distanceY = Math.Abs((gameObject.Transform.Position.y + (gameObject.Transform.Scale.y / 2)) - (transform.Position.y + (transform.Scale.y / 2)));
-                float sumHalfWidth = gameObject.Transform.Scale.x / 2 + transform.Scale.x / 2;
-                float sumHalfHeight = gameObject.Transform.Scale.y / 2 + transform.Scale.y / 2;
-
-
-                if (distanceX < sumHalfWidth && distanceY < sumHalfHeight)
-                {
-
-                    if (gameObject is IPickuppeable pickupobj) // Verifica si el objeto es un pez
-                    {
-                        pickupobj.PickUp();
-                        objectsToRemove.Add(gameObject);
-                    }
-
-                    if (gameObject is Obstacle)
-                    {
-                        Console.WriteLine("Colisión detectada con un obstaculo!");
-                        LevelController.GameObjectList.Remove(gameObject);
-
-                        //DieAnimation(); 
-
-                        GameManager.Instance.ChangeGameStatus(GameManager.GameStatus.lose);
-
-                        OnDie();
-
-                        ChangeAnimation();
-                    }
-
-                    foreach (var obj in objectsToRemove)
-                    {
-                        LevelController.GameObjectList.Remove(obj);
-                    }
-                    objectsToRemove.Clear();
-
-                }
-
-
-            }
+            OnDie?.Invoke();
         }
 
         public override void Update()
         {
             base.Update();
             controller.GetInputs();
-            CheckCollisions();
+            Collisions.CheckCollisions(this, LevelController.GameObjectList);
         }
-
-
     }
 }
